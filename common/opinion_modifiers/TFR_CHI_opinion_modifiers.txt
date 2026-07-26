@@ -1,5 +1,5 @@
 opinion_modifiers = {
-	Aus_Resource_Swap_Agreement = {
-		value = 10
-	}
+  Aus_Resource_Swap_Agreement = {
+    value = 10
+  }
 }

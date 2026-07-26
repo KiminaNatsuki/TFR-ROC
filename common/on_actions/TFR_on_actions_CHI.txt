@@ -13,12 +13,12 @@ on_actions = {
             CHI_PRC_Infiltration_progress_temp = 5
           }
           PRC_Infiltration_change = yes
-          
+
           set_variable = {
             CHI_Assist_reconstruction_progress_temp = 0
           }
           ARR_reconstruction = yes
-          
+
           add_dynamic_modifier = {
             modifier = CHI_taiwanese_independence_dynamic
           }

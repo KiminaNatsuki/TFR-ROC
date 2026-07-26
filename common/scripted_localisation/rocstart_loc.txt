@@ -1,1415 +1,1415 @@
 defined_text = {
-	name = get_fbi_event_title
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_1
-		}
-		localization_key = "fbi_case_pipeline"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_2
-		}
-		localization_key = "fbi_case_false_flags"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_3
-		}
-		localization_key = "fbi_case_atomwaffen"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_4
-		}
-		localization_key = "fbi_case_leftists"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_5
-		}
-		localization_key = "fbi_case_texas"
-	}
+  name = get_fbi_event_title
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_1
+    }
+    localization_key = "fbi_case_pipeline"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_2
+    }
+    localization_key = "fbi_case_false_flags"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_3
+    }
+    localization_key = "fbi_case_atomwaffen"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_4
+    }
+    localization_key = "fbi_case_leftists"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_5
+    }
+    localization_key = "fbi_case_texas"
+  }
 }
 
 defined_text = {
-	name = get_fbi_case_file
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_1
-		}
-		localization_key = "fbi_case_pipeline_text"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_2
-		}
-		localization_key = "fbi_case_false_flags_text"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_3
-		}
-		localization_key = "fbi_case_atomwaffen_text"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_4
-		}
-		localization_key = "fbi_case_leftists_text"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_5
-		}
-		localization_key = "fbi_case_texas_text"
-	}
+  name = get_fbi_case_file
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_1
+    }
+    localization_key = "fbi_case_pipeline_text"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_2
+    }
+    localization_key = "fbi_case_false_flags_text"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_3
+    }
+    localization_key = "fbi_case_atomwaffen_text"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_4
+    }
+    localization_key = "fbi_case_leftists_text"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_5
+    }
+    localization_key = "fbi_case_texas_text"
+  }
 }
 
 defined_text = {
-	name = get_fbi_buton
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_1
-		}
-		localization_key = "fbi_case_pipeline_button"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_2
-		}
-		localization_key = "fbi_case_false_flags_button"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_3
-		}
-		localization_key = "fbi_case_atomwaffen_button"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_4
-		}
-		localization_key = "fbi_case_leftists_button"
-	}
-	text = {
-		trigger = {
-			has_country_flag = show_fbi_file_5
-		}
-		localization_key = "fbi_case_texas_button"
-	}
+  name = get_fbi_buton
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_1
+    }
+    localization_key = "fbi_case_pipeline_button"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_2
+    }
+    localization_key = "fbi_case_false_flags_button"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_3
+    }
+    localization_key = "fbi_case_atomwaffen_button"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_4
+    }
+    localization_key = "fbi_case_leftists_button"
+  }
+  text = {
+    trigger = {
+      has_country_flag = show_fbi_file_5
+    }
+    localization_key = "fbi_case_texas_button"
+  }
 }
 
 defined_text = {
-	name = start_menu_country_desc
-	text = {
-		trigger = {
-			tag = CHI
-		}
-		localization_key = "CHI_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = USA
-		}
-		localization_key = "USA_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = GER
-		}
-		localization_key = "GER_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = SOV
-		}
-		localization_key = "SOV_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = FRA
-		}
-		localization_key = "FRA_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = PRC
-		}
-		localization_key = "PRC_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = JAP
-		}
-		localization_key = "JAP_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = SYR
-		}
-		localization_key = "SYR_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = USB
-			has_completed_focus = USB_rebirth
-		}
-		localization_key = "USB_caligula_country_summary"
-	}
-	text = {
-		trigger = {
-			tag = NCM
-		}
-		localization_key = "NCM_country_summary"
-	}
+  name = start_menu_country_desc
+  text = {
+    trigger = {
+      tag = CHI
+    }
+    localization_key = "CHI_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = USA
+    }
+    localization_key = "USA_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = GER
+    }
+    localization_key = "GER_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = SOV
+    }
+    localization_key = "SOV_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = FRA
+    }
+    localization_key = "FRA_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = PRC
+    }
+    localization_key = "PRC_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = JAP
+    }
+    localization_key = "JAP_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = SYR
+    }
+    localization_key = "SYR_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = USB
+      has_completed_focus = USB_rebirth
+    }
+    localization_key = "USB_caligula_country_summary"
+  }
+  text = {
+    trigger = {
+      tag = NCM
+    }
+    localization_key = "NCM_country_summary"
+  }
 }
 
 defined_text = {
-	name = start_menu_country_paths
-	text = {
-		trigger = {
-			tag = CHI
-		}
-		localization_key = "CHI_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = USA
-		}
-		localization_key = "USA_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = GER
-		}
-		localization_key = "GER_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = SOV
-		}
-		localization_key = "SOV_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = FRA
-		}
-		localization_key = "FRA_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = PRC
-		}
-		localization_key = "PRC_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = JAP
-		}
-		localization_key = "JAP_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = SYR
-		}
-		localization_key = "SYR_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = USB
-			has_completed_focus = USB_rebirth
-		}
-		localization_key = "USB_caligula_country_paths"
-	}
-	text = {
-		trigger = {
-			tag = NCM
-		}
-		localization_key = "NCM_country_paths"
-	}
+  name = start_menu_country_paths
+  text = {
+    trigger = {
+      tag = CHI
+    }
+    localization_key = "CHI_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = USA
+    }
+    localization_key = "USA_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = GER
+    }
+    localization_key = "GER_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = SOV
+    }
+    localization_key = "SOV_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = FRA
+    }
+    localization_key = "FRA_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = PRC
+    }
+    localization_key = "PRC_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = JAP
+    }
+    localization_key = "JAP_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = SYR
+    }
+    localization_key = "SYR_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = USB
+      has_completed_focus = USB_rebirth
+    }
+    localization_key = "USB_caligula_country_paths"
+  }
+  text = {
+    trigger = {
+      tag = NCM
+    }
+    localization_key = "NCM_country_paths"
+  }
 }
 
 defined_text = {
-	name = start_menu_country_other
-	text = {
-		trigger = {
-			tag = CHI
-		}
-		localization_key = "CHI_country_other"
-	}
-	text = {
-		trigger = {
-			tag = USA
-		}
-		localization_key = "USA_country_other"
-	}
-	text = {
-		trigger = {
-			tag = GER
-		}
-		localization_key = "GER_country_other"
-	}
-	text = {
-		trigger = {
-			tag = SOV
-		}
-		localization_key = "SOV_country_other"
-	}
-	text = {
-		trigger = {
-			tag = FRA
-		}
-		localization_key = "FRA_country_other"
-	}
-	text = {
-		trigger = {
-			tag = PRC
-		}
-		localization_key = "PRC_country_other"
-	}
-	text = {
-		trigger = {
-			tag = JAP
-		}
-		localization_key = "JAP_country_other"
-	}
-	text = {
-		trigger = {
-			tag = USB
-			has_completed_focus = USB_rebirth
-		}
-		localization_key = "USB_caligula_country_other"
-	}
-	text = {
-		trigger = {
-			tag = NCM
-		}
-		localization_key = "NCM_country_other"
-	}
+  name = start_menu_country_other
+  text = {
+    trigger = {
+      tag = CHI
+    }
+    localization_key = "CHI_country_other"
+  }
+  text = {
+    trigger = {
+      tag = USA
+    }
+    localization_key = "USA_country_other"
+  }
+  text = {
+    trigger = {
+      tag = GER
+    }
+    localization_key = "GER_country_other"
+  }
+  text = {
+    trigger = {
+      tag = SOV
+    }
+    localization_key = "SOV_country_other"
+  }
+  text = {
+    trigger = {
+      tag = FRA
+    }
+    localization_key = "FRA_country_other"
+  }
+  text = {
+    trigger = {
+      tag = PRC
+    }
+    localization_key = "PRC_country_other"
+  }
+  text = {
+    trigger = {
+      tag = JAP
+    }
+    localization_key = "JAP_country_other"
+  }
+  text = {
+    trigger = {
+      tag = USB
+      has_completed_focus = USB_rebirth
+    }
+    localization_key = "USB_caligula_country_other"
+  }
+  text = {
+    trigger = {
+      tag = NCM
+    }
+    localization_key = "NCM_country_other"
+  }
 }
 defined_text = {
-	name = GET_BACKGROUND
-	text = {
-		trigger = {
-			tag = CHI
-		}
-		localization_key = "GFX_CHI_BG"
-	}
-	text = {
-		trigger = {
-			tag = SOV
-		}
-		localization_key = "GFX_Moscow_BG"
-	}
-	text = {
-		trigger = {
-			tag = FRA
-		}
-		localization_key = "GFX_France_BG"
-	}
-	text = {
-		trigger = {
-			tag = USA
-		}
-		localization_key = "GFX_USA_BG"
-	}
-	text = {
-		trigger = {
-			tag = GER
-		}
-		localization_key = "GFX_GER_BG"
-	}
-	text = {
-		trigger = {
-			tag = JAP
-		}
-		localization_key = "GFX_Japan_BG"
-	}
-	text = {
-		trigger = {
-			tag = PRC
-		}
-		localization_key = "GFX_China_BG"
-	}
-	text = {
-		trigger = {
-			tag = USB
-			has_completed_focus = USB_rebirth
-		}
-		localization_key = "GFX_Caligula_BG"
-	}
-	text = {
-		trigger = {
-			tag = NCM
-		}
-		localization_key = "GFX_NCM_BG"
-	}
-	text = {
-		trigger = {
-			NOT = { tag = SOV tag = USA tag = FRA tag = JAP tag = PRC tag = GER tag = NCM tag = CHI}
-			NOT = { tag = USB has_completed_focus = USB_rebirth }
-		}
-		localization_key = "GFX_World_Map_BG"
-	}
+  name = GET_BACKGROUND
+  text = {
+    trigger = {
+      tag = CHI
+    }
+    localization_key = "GFX_CHI_BG"
+  }
+  text = {
+    trigger = {
+      tag = SOV
+    }
+    localization_key = "GFX_Moscow_BG"
+  }
+  text = {
+    trigger = {
+      tag = FRA
+    }
+    localization_key = "GFX_France_BG"
+  }
+  text = {
+    trigger = {
+      tag = USA
+    }
+    localization_key = "GFX_USA_BG"
+  }
+  text = {
+    trigger = {
+      tag = GER
+    }
+    localization_key = "GFX_GER_BG"
+  }
+  text = {
+    trigger = {
+      tag = JAP
+    }
+    localization_key = "GFX_Japan_BG"
+  }
+  text = {
+    trigger = {
+      tag = PRC
+    }
+    localization_key = "GFX_China_BG"
+  }
+  text = {
+    trigger = {
+      tag = USB
+      has_completed_focus = USB_rebirth
+    }
+    localization_key = "GFX_Caligula_BG"
+  }
+  text = {
+    trigger = {
+      tag = NCM
+    }
+    localization_key = "GFX_NCM_BG"
+  }
+  text = {
+    trigger = {
+      NOT = { tag = SOV tag = USA tag = FRA tag = JAP tag = PRC tag = GER tag = NCM tag = CHI}
+      NOT = { tag = USB has_completed_focus = USB_rebirth }
+    }
+    localization_key = "GFX_World_Map_BG"
+  }
 }
 defined_text = {
-	name = CHI_lfy_dangtuan
-	text = {
-		trigger = {
-			tag = CHI
-		}
-		localization_key = "CHI_start_lfy_desc"
-	}
-}
-
-defined_text = {
-	name = get_Taipei_status_PDTO
-	text = {
-		trigger = {
-			1148 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				1148 = {
-					controller = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1148 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = CHI_lfy_dangtuan
+  text = {
+    trigger = {
+      tag = CHI
+    }
+    localization_key = "CHI_start_lfy_desc"
+  }
 }
 
 defined_text = {
-	name = get_Taichung_status_PDTO
-	text = {
-		trigger = {
-			1149 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				1149 = {
-					controller = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1149 = {
-						is_ally_with = PRC
-					}
-					1149 = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_Taipei_status_PDTO
+  text = {
+    trigger = {
+      1148 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        1148 = {
+          controller = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1148 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_Kaohsiung_status_PDTO
-	text = {
-		trigger = {
-			1150 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				1150 = {
-					controller = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1150 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_Taichung_status_PDTO
+  text = {
+    trigger = {
+      1149 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        1149 = {
+          controller = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1149 = {
+            is_ally_with = PRC
+          }
+          1149 = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_Hualien_status_PDTO
-	text = {
-		trigger = {
-			524 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				524 = {
-					controller = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					524 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_Kaohsiung_status_PDTO
+  text = {
+    trigger = {
+      1150 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        1150 = {
+          controller = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1150 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_Kinmen_status_PDTO
-	text = {
-		trigger = {
-			648 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				648 = {
-					controller = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					648 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_Hualien_status_PDTO
+  text = {
+    trigger = {
+      524 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        524 = {
+          controller = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          524 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_Penghu_status_PDTO
-	text = {
-		trigger = {
-			1451 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				1451 = {
-					controller = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1451 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_Kinmen_status_PDTO
+  text = {
+    trigger = {
+      648 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        648 = {
+          controller = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          648 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_Okinawa_status_PDTO
-	text = {
-		trigger = {
-			526 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				526 = {
-					controller = {
-						is_ally_with = JAP
-					}
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					526 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_Penghu_status_PDTO
+  text = {
+    trigger = {
+      1451 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        1451 = {
+          controller = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1451 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_SenkakuIslands_status_PDTO
-	text = {
-		trigger = {
-			876 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			876 = {
-				controller = {
-					is_ally_with = JAP
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					876 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_Okinawa_status_PDTO
+  text = {
+    trigger = {
+      526 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        526 = {
+          controller = {
+            is_ally_with = JAP
+          }
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          526 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_Hongkong_status_PDTO
-	text = {
-		trigger = {
-			326 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			326 = {
-				controller = {
-					is_ally_with = JAP
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					326 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-							controller = {
-								is_ally_with = HKN
-							}
-							controller = {
-								is_ally_with = SHZ
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					326 = {
-						OR = {
-							controller = {
-								tag = HKN
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "SHZ_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					326 = {
-						OR = {
-							controller = {
-								tag = SHZ
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "HKN_control"
-	}
+  name = get_SenkakuIslands_status_PDTO
+  text = {
+    trigger = {
+      876 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      876 = {
+        controller = {
+          is_ally_with = JAP
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          876 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 
 defined_text = {
-	name = get_ShenZhen_status_PDTO
-	text = {
-		trigger = {
-			1395 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			1395 = {
-				controller = {
-					is_ally_with = JAP
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1395 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-							controller = {
-								is_ally_with = HKN
-							}
-							controller = {
-								is_ally_with = SHZ
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1395 = {
-						OR = {
-							controller = {
-								tag = HKN
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "SHZ_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1395 = {
-						OR = {
-							controller = {
-								tag = SHZ
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "HKN_control"
-	}
+  name = get_Hongkong_status_PDTO
+  text = {
+    trigger = {
+      326 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      326 = {
+        controller = {
+          is_ally_with = JAP
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          326 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+              controller = {
+                is_ally_with = HKN
+              }
+              controller = {
+                is_ally_with = SHZ
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          326 = {
+            OR = {
+              controller = {
+                tag = HKN
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "SHZ_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          326 = {
+            OR = {
+              controller = {
+                tag = SHZ
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "HKN_control"
+  }
 }
 
 defined_text = {
-	name = get_XishaIslands_status_PDTO
-	text = {
-		trigger = {
-			879 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			879 = {
-				controller = {
-					is_ally_with = JAP
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					879 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_ShenZhen_status_PDTO
+  text = {
+    trigger = {
+      1395 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      1395 = {
+        controller = {
+          is_ally_with = JAP
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1395 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+              controller = {
+                is_ally_with = HKN
+              }
+              controller = {
+                is_ally_with = SHZ
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1395 = {
+            OR = {
+              controller = {
+                tag = HKN
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "SHZ_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1395 = {
+            OR = {
+              controller = {
+                tag = SHZ
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "HKN_control"
+  }
 }
 
 defined_text = {
-	name = get_CCPSpratlyIslands_status_PDTO
-	text = {
-		trigger = {
-			1382 = {
-				controller = {
-					is_ally_with = PRC
-				}
-			}
-		}
-		localization_key = "PLA_control"
-	}
-	text = {
-		trigger = {
-			1382 = {
-				controller = {
-					is_ally_with = JAP
-				}
-			}
-		}
-		localization_key = "PDTO_control"
-	}
-	text = {
-		trigger = {
-			OR = {
-				NOT = {
-					1382 = {
-						OR = {
-							controller = {
-								is_ally_with = PRC
-							}
-							controller = {
-								is_ally_with = JAP
-							}
-						}
-					}
-				}
-			}
-		}
-		localization_key = "neutral_control"
-	}
+  name = get_XishaIslands_status_PDTO
+  text = {
+    trigger = {
+      879 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      879 = {
+        controller = {
+          is_ally_with = JAP
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          879 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
-defined_text = {
-	name = CHI_combatreadiness
 
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness
-					value > 0.99
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text5"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness
-					value > 0.74
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text4"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness
-					value > 0.49
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness
-					value > 0.24
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness
-					value > 0
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text1"
-	}
+defined_text = {
+  name = get_CCPSpratlyIslands_status_PDTO
+  text = {
+    trigger = {
+      1382 = {
+        controller = {
+          is_ally_with = PRC
+        }
+      }
+    }
+    localization_key = "PLA_control"
+  }
+  text = {
+    trigger = {
+      1382 = {
+        controller = {
+          is_ally_with = JAP
+        }
+      }
+    }
+    localization_key = "PDTO_control"
+  }
+  text = {
+    trigger = {
+      OR = {
+        NOT = {
+          1382 = {
+            OR = {
+              controller = {
+                is_ally_with = PRC
+              }
+              controller = {
+                is_ally_with = JAP
+              }
+            }
+          }
+        }
+      }
+    }
+    localization_key = "neutral_control"
+  }
 }
 defined_text = {
-	name = CHI_combatreadiness2
+  name = CHI_combatreadiness
 
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness2
-					value > 0.99
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text5"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness2
-					value > 0.74
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text4"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness2
-					value > 0.49
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness2
-					value > 0.24
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness2
-					value > 0
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text1"
-	}
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness
+          value > 0.99
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text5"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness
+          value > 0.74
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text4"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness
+          value > 0.49
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness
+          value > 0.24
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness
+          value > 0
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text1"
+  }
 }
 defined_text = {
-	name = CHI_combatreadiness3
+  name = CHI_combatreadiness2
 
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness3
-					value > 0.99
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text5"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness3
-					value > 0.74
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text4"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness3
-					value > 0.49
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness3
-					value > 0.24
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness3
-					value > 0
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text1"
-	}
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness2
+          value > 0.99
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text5"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness2
+          value > 0.74
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text4"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness2
+          value > 0.49
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness2
+          value > 0.24
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness2
+          value > 0
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text1"
+  }
 }
 defined_text = {
-	name = CHI_combatreadiness4
+  name = CHI_combatreadiness3
 
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness4
-					value > 0.99
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text5"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness4
-					value > 0.74
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text4"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness4
-					value > 0.49
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness4
-					value > 0.24
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness4
-					value > 0
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text1"
-	}
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness3
+          value > 0.99
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text5"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness3
+          value > 0.74
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text4"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness3
+          value > 0.49
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness3
+          value > 0.24
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness3
+          value > 0
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text1"
+  }
 }
 defined_text = {
-	name = CHI_stage
-	text = {
-		trigger = {
-			CHI = {
-				has_country_flag = CHI_stage_1
-			}
-		}
-		localization_key = "CHI_stage_1"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				has_country_flag = CHI_stage_2
-			}
-		}
-		localization_key = "CHI_stage_2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				has_country_flag = CHI_stage_3
-			}
-		}
-		localization_key = "CHI_stage_3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				has_country_flag = CHI_stage_4
-			}
-		}
-		localization_key = "CHI_stage_4"
-	}
-}
-defined_text = {
-	name = CHI_combatreadiness5
+  name = CHI_combatreadiness4
 
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness5
-					value > 0.99
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text5"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness5
-					value > 0.74
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text4"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness5
-					value > 0.49
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness5
-					value > 0.24
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness5
-					value > 0
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text1"
-	}
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness4
+          value > 0.99
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text5"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness4
+          value > 0.74
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text4"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness4
+          value > 0.49
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness4
+          value > 0.24
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness4
+          value > 0
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text1"
+  }
 }
 defined_text = {
-	name = CHI_combatreadiness6
-
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness6
-					value > 0.99
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text5"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness6
-					value > 0.74
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text4"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness6
-					value > 0.49
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness6
-					value > 0.24
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness6
-					value > 0
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text1"
-	}
+  name = CHI_stage
+  text = {
+    trigger = {
+      CHI = {
+        has_country_flag = CHI_stage_1
+      }
+    }
+    localization_key = "CHI_stage_1"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        has_country_flag = CHI_stage_2
+      }
+    }
+    localization_key = "CHI_stage_2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        has_country_flag = CHI_stage_3
+      }
+    }
+    localization_key = "CHI_stage_3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        has_country_flag = CHI_stage_4
+      }
+    }
+    localization_key = "CHI_stage_4"
+  }
 }
 defined_text = {
-	name = CHI_combatreadiness7
+  name = CHI_combatreadiness5
 
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness7
-					value > 0.99
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text5"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness7
-					value > 0.74
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text4"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness7
-					value > 0.49
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text3"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness7
-					value > 0.24
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text2"
-	}
-	text = {
-		trigger = {
-			CHI = {
-				check_variable = {
-					var = CHI_influence_combatreadiness7
-					value > 0
-				}
-			}
-		}
-		localization_key = "CHI_Infiltration_text1"
-	}
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness5
+          value > 0.99
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text5"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness5
+          value > 0.74
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text4"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness5
+          value > 0.49
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness5
+          value > 0.24
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness5
+          value > 0
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text1"
+  }
+}
+defined_text = {
+  name = CHI_combatreadiness6
+
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness6
+          value > 0.99
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text5"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness6
+          value > 0.74
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text4"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness6
+          value > 0.49
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness6
+          value > 0.24
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness6
+          value > 0
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text1"
+  }
+}
+defined_text = {
+  name = CHI_combatreadiness7
+
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness7
+          value > 0.99
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text5"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness7
+          value > 0.74
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text4"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness7
+          value > 0.49
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text3"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness7
+          value > 0.24
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text2"
+  }
+  text = {
+    trigger = {
+      CHI = {
+        check_variable = {
+          var = CHI_influence_combatreadiness7
+          value > 0
+        }
+      }
+    }
+    localization_key = "CHI_Infiltration_text1"
+  }
 }
 

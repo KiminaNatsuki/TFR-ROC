@@ -445,7 +445,7 @@ country_event = {
       country_event = {
         id = ROC_CHI.13
         days = 5
-    }
+      }
     }
 
   }
@@ -1087,7 +1087,7 @@ country_event = {
   id = ROC_CHI.34
   title = ROC_CHI.34.t
   desc = ROC_CHI.34.d
-  picture = ROC_CHI_Event_34  
+  picture = ROC_CHI_Event_34
   fire_only_once = yes
   is_triggered_only = yes
   trigger = {
@@ -1677,7 +1677,7 @@ country_event = {
   picture = ROC_228_Memoria_Day
   is_triggered_only = yes
 
-  immediate = { 
+  immediate = {
     hidden_effect ={
       country_event = {#228同上國慶
         id = ROC.37

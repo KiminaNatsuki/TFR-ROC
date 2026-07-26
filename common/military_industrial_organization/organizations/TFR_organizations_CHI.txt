@@ -43,8 +43,8 @@ CHI_NCSIST_organization = { #National Chung-Shan Institute of Science & Technolo
     armor
     motorized_equipment
     mio_cat_eq_all_small_plane
-		screen_ship
-		ship_hull_submarine
+    screen_ship
+    ship_hull_submarine
   }
 
   research_categories = {

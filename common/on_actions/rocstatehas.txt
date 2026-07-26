@@ -1,577 +1,577 @@
 on_actions = {
-	on_capitulation = {
-		effect = {
-			if = {
-				limit = {
-					FROM = {
-						OR = {
-							original_tag = SHZ
-						}
-					}
-					ROOT = {
-						OR = {
-							original_tag = HKN
-						}
-					}
-				}
-				SHZ = {
-					white_peace = ROOT
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-				PRC = {
-					annex_country = {
-						target = HKN
-						transfer_troops = yes
-					}
-					annex_country = {
-						target = SHZ
-						transfer_troops = yes
-					}
-				}
-				set_global_flag = skip_default_capitulation
-			}
-			if = {
-				limit = {
-					FROM = {
-						OR = {
-							original_tag = HKN
-						}
-					}
-					ROOT = {
-						OR = {
-							original_tag = SHZ
-						}
-					}
-				}
-				HKN = {
-					white_peace = ROOT
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-				PRC = {
-					declare_war_on = {
-						target = HKN
-						type = annex_everything
-					}
-				}
-				set_global_flag = skip_default_capitulation
-			}
-			if = {
-				limit = {
-					has_global_flag = PRC_ongoing_taiwan_war
-					FROM = {
-						original_tag = PRC
-					}
-					ROOT = {
-						original_tag = HKN
-					}
-				}
-				PRC = {
-					white_peace = HKN
-				}
-				PRC = {
-					annex_country = {
-						target = HKN
-					}
-				}
-				set_global_flag = skip_default_capitulation
-			}
-			if = {
-				limit = {
-					FROM = {
-						OR = {
-							original_tag = NDF
-							original_tag = MIL
-							original_tag = AFP
-						}
-					}
-					ROOT = {
-						OR = {
-							original_tag = NDF
-							original_tag = MIL
-							original_tag = AFP
-						}
-					}
-				}
-				FROM = {
-					white_peace = ROOT
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
-				}
-				set_global_flag = skip_default_capitulation
-			}
-			if = {
-				limit = {
-					FROM = {
-						OR = {
-							original_tag = PHN
-						}
-					}
-					ROOT = {
-						OR = {
-							original_tag = MIL
-						}
-					}
-				}
-				FROM = {
-					white_peace = ROOT
-					PHI = {
-						annex_country = {
-							target = PHN
-							transfer_troops = yes
-						}
-						annex_country = {
-							target = MIL
-							transfer_troops = yes
-						}
-						annex_country = {
-							target = AFP
-							transfer_troops = yes
-						}
-						annex_country = {
-							target = NDF
-							transfer_troops = yes
-						}
-						every_state = {
-							limit = {
-								is_core_of = PHI
-							}
-							remove_core_of = NAP
-							remove_core_of = AFP
-							remove_core_of = MIL
-							remove_core_of = PHN
-						}
-						set_politics = {
-							ruling_party = nationalist
-							last_election = "2016.1.16"
-							election_frequency = 48
-							elections_allowed = yes
-						}
-						set_popularities = {
-							authoritarian_democrat = 40
-							nationalist = 60
-						}
-						set_cosmetic_tag = PHI_civil_war_AFP_WON
-						set_country_flag = pdto_member
-						create_country_leader = {
-							name = PHN_Torribio_D_Adachi
-							picture = "gfx/Leaders/PHI_civil_war/PHN_Torribio_D_Adachi.png"
-							ideology = military_junta
-							expire = "1.1.1.1"
-						}
-						country_event = {
-							id = ROC.55
-							days = 720
-						}
-					}
-					JAP = {
-						add_to_faction = PHI
-					}
-					news_event = {
-						id = ROC.44
-					}
-				}
-				set_global_flag = skip_default_capitulation
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_global_flag = pan_asian_war_ongoing
-						has_global_flag = PRC_china_collapse
-					}
-					FROM = {
-						OR = {
-							original_tag = TIB
-						}
-					}
-					ROOT = {
-						original_tag = TAR
-					}
-				}
-				FROM = {
-					white_peace = ROOT
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
+  on_capitulation = {
+    effect = {
+      if = {
+        limit = {
+          FROM = {
+            OR = {
+              original_tag = SHZ
+            }
+          }
+          ROOT = {
+            OR = {
+              original_tag = HKN
+            }
+          }
+        }
+        SHZ = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+        PRC = {
+          annex_country = {
+            target = HKN
+            transfer_troops = yes
+          }
+          annex_country = {
+            target = SHZ
+            transfer_troops = yes
+          }
+        }
+        set_global_flag = skip_default_capitulation
+      }
+      if = {
+        limit = {
+          FROM = {
+            OR = {
+              original_tag = HKN
+            }
+          }
+          ROOT = {
+            OR = {
+              original_tag = SHZ
+            }
+          }
+        }
+        HKN = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+        PRC = {
+          declare_war_on = {
+            target = HKN
+            type = annex_everything
+          }
+        }
+        set_global_flag = skip_default_capitulation
+      }
+      if = {
+        limit = {
+          has_global_flag = PRC_ongoing_taiwan_war
+          FROM = {
+            original_tag = PRC
+          }
+          ROOT = {
+            original_tag = HKN
+          }
+        }
+        PRC = {
+          white_peace = HKN
+        }
+        PRC = {
+          annex_country = {
+            target = HKN
+          }
+        }
+        set_global_flag = skip_default_capitulation
+      }
+      if = {
+        limit = {
+          FROM = {
+            OR = {
+              original_tag = NDF
+              original_tag = MIL
+              original_tag = AFP
+            }
+          }
+          ROOT = {
+            OR = {
+              original_tag = NDF
+              original_tag = MIL
+              original_tag = AFP
+            }
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
+        }
+        set_global_flag = skip_default_capitulation
+      }
+      if = {
+        limit = {
+          FROM = {
+            OR = {
+              original_tag = PHN
+            }
+          }
+          ROOT = {
+            OR = {
+              original_tag = MIL
+            }
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          PHI = {
+            annex_country = {
+              target = PHN
+              transfer_troops = yes
+            }
+            annex_country = {
+              target = MIL
+              transfer_troops = yes
+            }
+            annex_country = {
+              target = AFP
+              transfer_troops = yes
+            }
+            annex_country = {
+              target = NDF
+              transfer_troops = yes
+            }
+            every_state = {
+              limit = {
+                is_core_of = PHI
+              }
+              remove_core_of = NAP
+              remove_core_of = AFP
+              remove_core_of = MIL
+              remove_core_of = PHN
+            }
+            set_politics = {
+              ruling_party = nationalist
+              last_election = "2016.1.16"
+              election_frequency = 48
+              elections_allowed = yes
+            }
+            set_popularities = {
+              authoritarian_democrat = 40
+              nationalist = 60
+            }
+            set_cosmetic_tag = PHI_civil_war_AFP_WON
+            set_country_flag = pdto_member
+            create_country_leader = {
+              name = PHN_Torribio_D_Adachi
+              picture = "gfx/Leaders/PHI_civil_war/PHN_Torribio_D_Adachi.png"
+              ideology = military_junta
+              expire = "1.1.1.1"
+            }
+            country_event = {
+              id = ROC.55
+              days = 720
+            }
+          }
+          JAP = {
+            add_to_faction = PHI
+          }
+          news_event = {
+            id = ROC.44
+          }
+        }
+        set_global_flag = skip_default_capitulation
+      }
+      if = {
+        limit = {
+          NOT = {
+            has_global_flag = pan_asian_war_ongoing
+            has_global_flag = PRC_china_collapse
+          }
+          FROM = {
+            OR = {
+              original_tag = TIB
+            }
+          }
+          ROOT = {
+            original_tag = TAR
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
 
-					set_global_flag = skip_default_capitulation
-				}
-			}
-			if = {
-				limit = {
-					NOT = {
-						has_global_flag = PRC_china_collapse
-					}
-					FROM = {
-						original_tag = TAR
-					}
-					ROOT = {
-						OR = {
-							original_tag = TIB
-						}
-					}
-				}
-				FROM = {
-					white_peace = ROOT
-					annex_country = {
-						target = ROOT
-						transfer_troops = no
-					}
+          set_global_flag = skip_default_capitulation
+        }
+      }
+      if = {
+        limit = {
+          NOT = {
+            has_global_flag = PRC_china_collapse
+          }
+          FROM = {
+            original_tag = TAR
+          }
+          ROOT = {
+            OR = {
+              original_tag = TIB
+            }
+          }
+        }
+        FROM = {
+          white_peace = ROOT
+          annex_country = {
+            target = ROOT
+            transfer_troops = no
+          }
 
-					set_global_flag = skip_default_capitulation
-				}
-			}
-		}
-	}
-	on_state_control_changed = {
-		effect = {
-			if = {
-				limit = {
-					#台北-台海
-					FROM.FROM = {
-						OR = {
-							state = 1148
-						}
-					}
-					FROM = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					ROOT = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					not = {
-						has_global_flag = battle_of_taipei
-					}
-				}
-				set_global_flag = battle_of_taipei
-				news_event = {
-					id = china.72
-					hours = 6
-				}
-				1148 = {
-					add_extra_state_shared_building_slots = -2
-					add_manpower = -10213
-					damage_building = {
-						type = infrastructure
-						damage = 2
-					}
-					damage_building = {
-						type = arms_factory
-						damage = 2
-					}
-					damage_building = {
-						type = industrial_complex
-						damage = 2
-					}
-					damage_building = {
-						type = dockyard
-						damage = 2
-					}
-				}
-				JAP = {
-					country_event = {
-						id = ROC.50
-					}
-				}
-				CHI = {
-					country_event = {
-						id = ROC.50
-					}
-					add_to_variable = {
-						var = ROC_mobilization_speed
-						value = 0.15
-					}
-					add_to_variable = {
-						var = ROC_conscription_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_experience_loss_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_attack_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_defence_factor
-						value = 0.05
-					}
-				}
-			}
-			if = {
-				limit = {
-					FROM.FROM = {
-						#台中 - 台海
-						OR = {
-							state = 1149
-						}
-					}
-					FROM = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					ROOT = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					not = {
-						has_global_flag = battle_of_taizhong
-					}
-				}
-				set_global_flag = battle_of_taizhong
-				1149 = {
-					add_extra_state_shared_building_slots = -2
-					add_manpower = -7492
-					damage_building = {
-						type = infrastructure
-						damage = 2
-					}
-					damage_building = {
-						type = arms_factory
-						damage = 2
-					}
-					damage_building = {
-						type = industrial_complex
-						damage = 2
-					}
-					damage_building = {
-						type = dockyard
-						damage = 2
-					}
-				}
-				JAP = {
-					country_event = {
-						id = ROC.51
-					}
-				}
-				CHI = {
-					country_event = {
-						id = ROC.51
-					}
-					add_to_variable = {
-						var = ROC_mobilization_speed
-						value = 0.15
-					}
-					add_to_variable = {
-						var = ROC_conscription_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_experience_loss_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_attack_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_defence_factor
-						value = 0.05
-					}
-				}
-			}
-			if = {
-				limit = {
-					FROM.FROM = {
-						#高雄-台海
-						OR = {
-							state = 1150
-						}
-					}
-					FROM = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					ROOT = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					not = {
-						has_global_flag = battle_of_gaoxiong
-					}
-				}
-				set_global_flag = battle_of_gaoxiong
-				1150 = {
-					add_extra_state_shared_building_slots = -2
-					add_manpower = -7316
-					damage_building = {
-						type = infrastructure
-						damage = 2
-					}
-					damage_building = {
-						type = arms_factory
-						damage = 2
-					}
-					damage_building = {
-						type = industrial_complex
-						damage = 2
-					}
-					damage_building = {
-						type = dockyard
-						damage = 2
-					}
-				}
-				JAP = {
-					country_event = {
-						id = ROC.52
-					}
-				}
-				CHI = {
-					country_event = {
-						id = ROC.52
-					}
-					add_to_variable = {
-						var = ROC_mobilization_speed
-						value = 0.15
-					}
-					add_to_variable = {
-						var = ROC_conscription_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_experience_loss_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_attack_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_defence_factor
-						value = 0.05
-					}
-				}
-			}
-			if = {
-				limit = {
-					#花莲-台海
-					FROM.FROM = {
-						OR = {
-							state = 524
-						}
-					}
-					FROM = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					ROOT = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					not = {
-						has_global_flag = battle_of_hualian
-					}
-				}
-				set_global_flag = battle_of_hualian
-				524 = {
-					add_extra_state_shared_building_slots = -2
-					add_manpower = -4362
-					damage_building = {
-						type = infrastructure
-						damage = 2
-					}
-					damage_building = {
-						type = arms_factory
-						damage = 2
-					}
-					damage_building = {
-						type = industrial_complex
-						damage = 2
-					}
-					damage_building = {
-						type = dockyard
-						damage = 2
-					}
-				}
-				JAP = {
-					country_event = {
-						id = ROC.53
-					}
-				}
-				CHI = {
-					country_event = {
-						id = ROC.53
-					}
-					add_to_variable = {
-						var = ROC_mobilization_speed
-						value = 0.15
-					}
-					add_to_variable = {
-						var = ROC_conscription_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_experience_loss_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_attack_factor
-						value = 0.05
-					}
-					add_to_variable = {
-						var = ROC_army_core_defence_factor
-						value = 0.05
-					}
-				}
-			}
-			if = {
-				limit = {
-					#金門
-					FROM.FROM = {
-						OR = {
-							state = 648
-						}
-					}
-					FROM = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					ROOT = {
-						OR = {
-							is_ally_with = PRC
-							is_ally_with = CHI
-						}
-					}
-					not = {
-						has_global_flag = battle_of_kinmen
-					}
-				}
-				set_global_flag = battle_of_kinmen
-				CHI = {
-					country_event = {
-						id = ROC_CHI.34
-					}
-				}
-			}
-		}
-	}
+          set_global_flag = skip_default_capitulation
+        }
+      }
+    }
+  }
+  on_state_control_changed = {
+    effect = {
+      if = {
+        limit = {
+          #台北-台海
+          FROM.FROM = {
+            OR = {
+              state = 1148
+            }
+          }
+          FROM = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          ROOT = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          not = {
+            has_global_flag = battle_of_taipei
+          }
+        }
+        set_global_flag = battle_of_taipei
+        news_event = {
+          id = china.72
+          hours = 6
+        }
+        1148 = {
+          add_extra_state_shared_building_slots = -2
+          add_manpower = -10213
+          damage_building = {
+            type = infrastructure
+            damage = 2
+          }
+          damage_building = {
+            type = arms_factory
+            damage = 2
+          }
+          damage_building = {
+            type = industrial_complex
+            damage = 2
+          }
+          damage_building = {
+            type = dockyard
+            damage = 2
+          }
+        }
+        JAP = {
+          country_event = {
+            id = ROC.50
+          }
+        }
+        CHI = {
+          country_event = {
+            id = ROC.50
+          }
+          add_to_variable = {
+            var = ROC_mobilization_speed
+            value = 0.15
+          }
+          add_to_variable = {
+            var = ROC_conscription_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_experience_loss_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_attack_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_defence_factor
+            value = 0.05
+          }
+        }
+      }
+      if = {
+        limit = {
+          FROM.FROM = {
+            #台中 - 台海
+            OR = {
+              state = 1149
+            }
+          }
+          FROM = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          ROOT = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          not = {
+            has_global_flag = battle_of_taizhong
+          }
+        }
+        set_global_flag = battle_of_taizhong
+        1149 = {
+          add_extra_state_shared_building_slots = -2
+          add_manpower = -7492
+          damage_building = {
+            type = infrastructure
+            damage = 2
+          }
+          damage_building = {
+            type = arms_factory
+            damage = 2
+          }
+          damage_building = {
+            type = industrial_complex
+            damage = 2
+          }
+          damage_building = {
+            type = dockyard
+            damage = 2
+          }
+        }
+        JAP = {
+          country_event = {
+            id = ROC.51
+          }
+        }
+        CHI = {
+          country_event = {
+            id = ROC.51
+          }
+          add_to_variable = {
+            var = ROC_mobilization_speed
+            value = 0.15
+          }
+          add_to_variable = {
+            var = ROC_conscription_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_experience_loss_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_attack_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_defence_factor
+            value = 0.05
+          }
+        }
+      }
+      if = {
+        limit = {
+          FROM.FROM = {
+            #高雄-台海
+            OR = {
+              state = 1150
+            }
+          }
+          FROM = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          ROOT = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          not = {
+            has_global_flag = battle_of_gaoxiong
+          }
+        }
+        set_global_flag = battle_of_gaoxiong
+        1150 = {
+          add_extra_state_shared_building_slots = -2
+          add_manpower = -7316
+          damage_building = {
+            type = infrastructure
+            damage = 2
+          }
+          damage_building = {
+            type = arms_factory
+            damage = 2
+          }
+          damage_building = {
+            type = industrial_complex
+            damage = 2
+          }
+          damage_building = {
+            type = dockyard
+            damage = 2
+          }
+        }
+        JAP = {
+          country_event = {
+            id = ROC.52
+          }
+        }
+        CHI = {
+          country_event = {
+            id = ROC.52
+          }
+          add_to_variable = {
+            var = ROC_mobilization_speed
+            value = 0.15
+          }
+          add_to_variable = {
+            var = ROC_conscription_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_experience_loss_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_attack_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_defence_factor
+            value = 0.05
+          }
+        }
+      }
+      if = {
+        limit = {
+          #花莲-台海
+          FROM.FROM = {
+            OR = {
+              state = 524
+            }
+          }
+          FROM = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          ROOT = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          not = {
+            has_global_flag = battle_of_hualian
+          }
+        }
+        set_global_flag = battle_of_hualian
+        524 = {
+          add_extra_state_shared_building_slots = -2
+          add_manpower = -4362
+          damage_building = {
+            type = infrastructure
+            damage = 2
+          }
+          damage_building = {
+            type = arms_factory
+            damage = 2
+          }
+          damage_building = {
+            type = industrial_complex
+            damage = 2
+          }
+          damage_building = {
+            type = dockyard
+            damage = 2
+          }
+        }
+        JAP = {
+          country_event = {
+            id = ROC.53
+          }
+        }
+        CHI = {
+          country_event = {
+            id = ROC.53
+          }
+          add_to_variable = {
+            var = ROC_mobilization_speed
+            value = 0.15
+          }
+          add_to_variable = {
+            var = ROC_conscription_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_experience_loss_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_attack_factor
+            value = 0.05
+          }
+          add_to_variable = {
+            var = ROC_army_core_defence_factor
+            value = 0.05
+          }
+        }
+      }
+      if = {
+        limit = {
+          #金門
+          FROM.FROM = {
+            OR = {
+              state = 648
+            }
+          }
+          FROM = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          ROOT = {
+            OR = {
+              is_ally_with = PRC
+              is_ally_with = CHI
+            }
+          }
+          not = {
+            has_global_flag = battle_of_kinmen
+          }
+        }
+        set_global_flag = battle_of_kinmen
+        CHI = {
+          country_event = {
+            id = ROC_CHI.34
+          }
+        }
+      }
+    }
+  }
 }

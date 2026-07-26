@@ -1705,7 +1705,7 @@ ideas = {
       modifier = {
         monthly_population = 0.45
         farming_development_monthly = 0.005
-      }      
+      }
     }
   }
   hidden_ideas = {

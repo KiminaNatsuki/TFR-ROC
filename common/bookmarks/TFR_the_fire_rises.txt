@@ -1,28 +1,28 @@
 bookmarks = {
-	bookmark = {
-		name = "FIRE_NAME"
-		desc = "FIRE_NAME_DESC"
-		date = 2020.1.1.1
-		picture = "GFX_select_date_2020"
-		default_country = "CHI"
-		default = yes
-		"CHI" = {
-			history = "CHI_GATHERING_STORM_DESC"
-			ideology = communist
-			ideas = {
-				CHI_taiwanese_independence_movement_idea
-				CHI_tsmc_idea
-				CHI_american_protection_idea
-			}
-			focuses = {
-				Taiwan_safe_people_rich
-				CHI_election_2020
-				Taiwan_will_win
-			}
-		}
-		effect = {
-			randomize_weather = 22345			# <- Obligatory in every bookmark !
-			#123 = { rain_light = yes }
-		}
-	}
+  bookmark = {
+    name = "FIRE_NAME"
+    desc = "FIRE_NAME_DESC"
+    date = 2020.1.1.1
+    picture = "GFX_select_date_2020"
+    default_country = "CHI"
+    default = yes
+    "CHI" = {
+      history = "CHI_GATHERING_STORM_DESC"
+      ideology = communist
+      ideas = {
+        CHI_taiwanese_independence_movement_idea
+        CHI_tsmc_idea
+        CHI_american_protection_idea
+      }
+      focuses = {
+        Taiwan_safe_people_rich
+        CHI_election_2020
+        Taiwan_will_win
+      }
+    }
+    effect = {
+      randomize_weather = 22345			# <- Obligatory in every bookmark !
+      #123 = { rain_light = yes }
+    }
+  }
 }
