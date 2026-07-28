@@ -669,6 +669,8 @@ ideologies = {
       }
       classical_conservatism = {
       }
+      national_conservativism_con = {
+      }
       supervised_democracy = {
         can_be_randomly_selected = no
         color = {
@@ -887,6 +889,8 @@ ideologies = {
       hybrid_regime = {
       }
       auth_populism = {
+      }
+      national_conservativism_auth = {
       }
       military_democracy = {
         can_be_randomly_selected = no
