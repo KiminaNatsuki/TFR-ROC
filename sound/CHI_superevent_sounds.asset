@@ -1,0 +1,12 @@
+sound = {
+	name = "ROC_taihai_war_sound_file"
+	file = "Super_Events/CHI_taihai_war.wav"
+	volume = 0.65
+}
+
+soundeffect = {
+	name = "ROC_taihai_war_sound"
+	sounds = {
+		sound = "ROC_taihai_war_sound_file"
+	}
+}

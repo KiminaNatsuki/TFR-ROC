@@ -139,7 +139,7 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_CHI_TAIHAI_WAR_superevent"
-		texturefile = "gfx/roc/CHI_taihai_war_picture.png"
+		texturefile = "gfx/super_events/CHI_taihai_war_picture.png"
 	}
 	spriteType = {
 		name = "GFX_MND_event_texticon"
