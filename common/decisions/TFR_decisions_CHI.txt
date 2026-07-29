@@ -5744,9 +5744,6 @@ CHI_civilwar_category = {
 
 }
 
-CHI_core_china_category = {
-
-}
 
 CHI_shanhe4province_category = {
 
