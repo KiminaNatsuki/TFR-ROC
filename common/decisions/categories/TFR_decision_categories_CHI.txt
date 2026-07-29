@@ -302,20 +302,7 @@ CHI_civilwar_category = {
       has_completed_focus = CHI_compete_for_central_plains
     }
   }
-}
-
-CHI_core_china_category = {
-  icon = GFX_decision_core_china
-  visible_when_empty = yes
-  allowed = {
-    original_tag = CHI
-  }
-  visible = {
-    OR = {
-      is_debug = yes
-      has_completed_focus = CHI_regional_political_tutelage
-    }
-  }
+  scripted_gui = TFR_CHI_chinese_civil_war_gui
 }
 
 CHI_shanhe4province_category = {
