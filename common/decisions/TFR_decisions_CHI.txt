@@ -5740,11 +5740,6 @@ CHI_GAW_situation_category = {
 ####    ##            ##    ####
 ####    ##            ##    ####
 
-CHI_civilwar_category = {
-
-}
-
-
 CHI_shanhe4province_category = {
 
 }
