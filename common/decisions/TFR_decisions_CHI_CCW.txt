@@ -1,0 +1,13 @@
+CHI_civilwar_category = {
+    ccw_taiwan_divider = {
+    icon = GFX_ccw_taiwan_divider
+    allowed = {original_tag = CHI}
+    available = { hidden_trigger = {always = no}}
+    visible = {
+      OR = {
+        check_variable = { CHI_ccw_dec_visible = 1 }
+        is_ai = yes
+      }
+    }
+  }
+}

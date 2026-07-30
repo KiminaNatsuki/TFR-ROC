@@ -1617,6 +1617,16 @@ scripted_gui = {
                         1416 = { is_core_of = CHI is_controlled_by = CHI }
                     }
             }
+        }
+        effects = {
+
+            ccw_taiwan_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 1 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 1 } }
+            }
 
 
         }
