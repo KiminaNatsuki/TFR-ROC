@@ -9,6 +9,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 1 }
                 is_ai = yes
             }
+                    owns_state = 524
+            owns_state = 1148
+            owns_state = 1149
+            owns_state = 1150
+            owns_state = 648
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -21,6 +26,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_taiwan_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 1 }
+            OR = {
+                NOT = { owns_state = 524 }
+                NOT = { owns_state = 1148 }
+                NOT = { owns_state = 1149 }
+                NOT = { owns_state = 1150 }
+                NOT = { owns_state = 648 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_taiwan = {
@@ -170,6 +193,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 2 }
                 is_ai = yes
             }
+                    owns_state = 1223
+            owns_state = 606
+            owns_state = 1221
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -180,6 +206,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_anhui_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 2 }
+            OR = {
+                NOT = { owns_state = 1223 }
+                NOT = { owns_state = 606 }
+                NOT = { owns_state = 1221 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_anhui = {
@@ -307,6 +349,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 3 }
                 is_ai = yes
             }
+                    owns_state = 608
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -315,6 +358,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_beijing_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 3 }
+            OR = {
+                NOT = { owns_state = 608 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_beijing = {
@@ -420,6 +477,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 4 }
                 is_ai = yes
             }
+                    owns_state = 598
+            owns_state = 1228
+            owns_state = 1429
+            owns_state = 613
+            owns_state = 1222
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -432,6 +494,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_jiangsu_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 4 }
+            OR = {
+                NOT = { owns_state = 598 }
+                NOT = { owns_state = 1228 }
+                NOT = { owns_state = 1429 }
+                NOT = { owns_state = 613 }
+                NOT = { owns_state = 1222 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_jiangsu = {
@@ -581,6 +661,14 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 5 }
                 is_ai = yes
             }
+                    owns_state = 1426
+            owns_state = 1231
+            owns_state = 597
+            owns_state = 1230
+            owns_state = 1427
+            owns_state = 1229
+            owns_state = 1393
+            owns_state = 1420
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -596,6 +684,27 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_shandong_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 5 }
+            OR = {
+                NOT = { owns_state = 1426 }
+                NOT = { owns_state = 1231 }
+                NOT = { owns_state = 597 }
+                NOT = { owns_state = 1230 }
+                NOT = { owns_state = 1427 }
+                NOT = { owns_state = 1229 }
+                NOT = { owns_state = 1393 }
+                NOT = { owns_state = 1420 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_shandong = {
@@ -778,6 +887,13 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 6 }
                 is_ai = yes
             }
+                    owns_state = 609
+            owns_state = 610
+            owns_state = 611
+            owns_state = 1154
+            owns_state = 1232
+            owns_state = 1421
+            owns_state = 614
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -792,6 +908,26 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_hebei_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 6 }
+            OR = {
+                NOT = { owns_state = 609 }
+                NOT = { owns_state = 610 }
+                NOT = { owns_state = 611 }
+                NOT = { owns_state = 1154 }
+                NOT = { owns_state = 1232 }
+                NOT = { owns_state = 1421 }
+                NOT = { owns_state = 614 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_hebei = {
@@ -963,6 +1099,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 7 }
                 is_ai = yes
             }
+                    owns_state = 1157
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -971,6 +1108,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_tianjin_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 7 }
+            OR = {
+                NOT = { owns_state = 1157 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_tianjin = {
@@ -1076,6 +1227,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 8 }
                 is_ai = yes
             }
+                    owns_state = 1233
+            owns_state = 615
+            owns_state = 1194
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1086,6 +1240,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_shanxi_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 8 }
+            OR = {
+                NOT = { owns_state = 1233 }
+                NOT = { owns_state = 615 }
+                NOT = { owns_state = 1194 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_shanxi = {
@@ -1213,6 +1383,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 9 }
                 is_ai = yes
             }
+                    owns_state = 1201
+            owns_state = 622
+            owns_state = 1200
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1223,6 +1396,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_shan3xi_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 9 }
+            OR = {
+                NOT = { owns_state = 1201 }
+                NOT = { owns_state = 622 }
+                NOT = { owns_state = 1200 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_shan3xi = {
@@ -1350,6 +1539,10 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 10 }
                 is_ai = yes
             }
+                    owns_state = 607
+            owns_state = 1226
+            owns_state = 1225
+            owns_state = 1224
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1361,6 +1554,23 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_henan_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 10 }
+            OR = {
+                NOT = { owns_state = 607 }
+                NOT = { owns_state = 1226 }
+                NOT = { owns_state = 1225 }
+                NOT = { owns_state = 1224 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_henan = {
@@ -1499,6 +1709,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 11 }
                 is_ai = yes
             }
+                    owns_state = 1199
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1507,6 +1718,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_ningxia_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 11 }
+            OR = {
+                NOT = { owns_state = 1199 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_ningxia = {
@@ -1612,6 +1837,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 12 }
                 is_ai = yes
             }
+                    owns_state = 1189
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1620,6 +1846,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_chongqing_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 12 }
+            OR = {
+                NOT = { owns_state = 1189 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_chongqing = {
@@ -1725,6 +1965,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 13 }
                 is_ai = yes
             }
+                    owns_state = 1215
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1733,6 +1974,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_shanghai_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 13 }
+            OR = {
+                NOT = { owns_state = 1215 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_shanghai = {
@@ -1838,6 +2093,10 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 14 }
                 is_ai = yes
             }
+                    owns_state = 1220
+            owns_state = 1159
+            owns_state = 1219
+            owns_state = 596
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1849,6 +2108,23 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_zhejiang_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 14 }
+            OR = {
+                NOT = { owns_state = 1220 }
+                NOT = { owns_state = 1159 }
+                NOT = { owns_state = 1219 }
+                NOT = { owns_state = 596 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_zhejiang = {
@@ -1987,6 +2263,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 15 }
                 is_ai = yes
             }
+                    owns_state = 1217
+            owns_state = 595
+            owns_state = 1218
+            owns_state = 1216
+            owns_state = 1431
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -1999,6 +2280,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_fujian_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 15 }
+            OR = {
+                NOT = { owns_state = 1217 }
+                NOT = { owns_state = 595 }
+                NOT = { owns_state = 1218 }
+                NOT = { owns_state = 1216 }
+                NOT = { owns_state = 1431 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_fujian = {
@@ -2148,6 +2447,12 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 16 }
                 is_ai = yes
             }
+                    owns_state = 1430
+            owns_state = 1207
+            owns_state = 1206
+            owns_state = 592
+            owns_state = 728
+            owns_state = 1395
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -2161,6 +2466,25 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_guangdong_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 16 }
+            OR = {
+                NOT = { owns_state = 1430 }
+                NOT = { owns_state = 1207 }
+                NOT = { owns_state = 1206 }
+                NOT = { owns_state = 592 }
+                NOT = { owns_state = 728 }
+                NOT = { owns_state = 1395 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_guangdong = {
@@ -2321,6 +2645,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 17 }
                 is_ai = yes
             }
+                    owns_state = 326
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -2329,6 +2654,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_hongkong_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 17 }
+            OR = {
+                NOT = { owns_state = 326 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_hongkong = {
@@ -2434,6 +2773,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 18 }
                 is_ai = yes
             }
+                    owns_state = 729
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -2442,6 +2782,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_macau_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 18 }
+            OR = {
+                NOT = { owns_state = 729 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_macau = {
@@ -2547,6 +2901,13 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 19 }
                 is_ai = yes
             }
+                    owns_state = 599
+            owns_state = 1191
+            owns_state = 593
+            owns_state = 594
+            owns_state = 1203
+            owns_state = 1204
+            owns_state = 1205
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -2561,6 +2922,26 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_guangxi_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 19 }
+            OR = {
+                NOT = { owns_state = 599 }
+                NOT = { owns_state = 1191 }
+                NOT = { owns_state = 593 }
+                NOT = { owns_state = 594 }
+                NOT = { owns_state = 1203 }
+                NOT = { owns_state = 1204 }
+                NOT = { owns_state = 1205 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_guangxi = {
@@ -2732,6 +3113,10 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 20 }
                 is_ai = yes
             }
+                    owns_state = 1196
+            owns_state = 1192
+            owns_state = 1195
+            owns_state = 325
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -2743,6 +3128,23 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_yunnan_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 20 }
+            OR = {
+                NOT = { owns_state = 1196 }
+                NOT = { owns_state = 1192 }
+                NOT = { owns_state = 1195 }
+                NOT = { owns_state = 325 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_yunnan = {
@@ -2881,6 +3283,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 21 }
                 is_ai = yes
             }
+                    owns_state = 601
+            owns_state = 1168
+            owns_state = 1190
+            owns_state = 605
+            owns_state = 1188
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -2893,6 +3300,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_sichuan_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 21 }
+            OR = {
+                NOT = { owns_state = 601 }
+                NOT = { owns_state = 1168 }
+                NOT = { owns_state = 1190 }
+                NOT = { owns_state = 605 }
+                NOT = { owns_state = 1188 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_sichuan = {
@@ -3042,6 +3467,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 22 }
                 is_ai = yes
             }
+                    owns_state = 1155
+            owns_state = 322
+            owns_state = 1153
+            owns_state = 1156
+            owns_state = 1152
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -3054,6 +3484,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_xizang_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 22 }
+            OR = {
+                NOT = { owns_state = 1155 }
+                NOT = { owns_state = 322 }
+                NOT = { owns_state = 1153 }
+                NOT = { owns_state = 1156 }
+                NOT = { owns_state = 1152 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_xizang = {
@@ -3203,6 +3651,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 23 }
                 is_ai = yes
             }
+                    owns_state = 434
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -3211,6 +3660,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_zangsouth_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 23 }
+            OR = {
+                NOT = { owns_state = 434 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_zangsouth = {
@@ -3316,6 +3779,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 24 }
                 is_ai = yes
             }
+                    owns_state = 1212
+            owns_state = 620
+            owns_state = 1211
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -3326,6 +3792,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_hubei_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 24 }
+            OR = {
+                NOT = { owns_state = 1212 }
+                NOT = { owns_state = 620 }
+                NOT = { owns_state = 1211 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_hubei = {
@@ -3453,6 +3935,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 25 }
                 is_ai = yes
             }
+                    owns_state = 602
+            owns_state = 1208
+            owns_state = 1209
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -3463,6 +3948,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_hunan_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 25 }
+            OR = {
+                NOT = { owns_state = 602 }
+                NOT = { owns_state = 1208 }
+                NOT = { owns_state = 1209 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_hunan = {
@@ -3590,6 +4091,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 26 }
                 is_ai = yes
             }
+                    owns_state = 1210
+            owns_state = 603
+            owns_state = 1197
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -3600,6 +4104,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_guizhou_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 26 }
+            OR = {
+                NOT = { owns_state = 1210 }
+                NOT = { owns_state = 603 }
+                NOT = { owns_state = 1197 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_guizhou = {
@@ -3727,6 +4247,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 27 }
                 is_ai = yes
             }
+                    owns_state = 1227
+            owns_state = 1428
+            owns_state = 1214
+            owns_state = 1213
+            owns_state = 600
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -3739,6 +4264,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_jiangxi_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 27 }
+            OR = {
+                NOT = { owns_state = 1227 }
+                NOT = { owns_state = 1428 }
+                NOT = { owns_state = 1214 }
+                NOT = { owns_state = 1213 }
+                NOT = { owns_state = 600 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_jiangxi = {
@@ -3888,6 +4431,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 28 }
                 is_ai = yes
             }
+                    owns_state = 591
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -3896,6 +4440,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_hainan_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 28 }
+            OR = {
+                NOT = { owns_state = 591 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_hainan = {
@@ -4001,6 +4559,17 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 29 }
                 is_ai = yes
             }
+                    owns_state = 1158
+            owns_state = 1160
+            owns_state = 1161
+            owns_state = 1162
+            owns_state = 1163
+            owns_state = 1164
+            owns_state = 1165
+            owns_state = 617
+            owns_state = 618
+            owns_state = 619
+            owns_state = 287
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -4019,6 +4588,30 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_xinjiang_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 29 }
+            OR = {
+                NOT = { owns_state = 1158 }
+                NOT = { owns_state = 1160 }
+                NOT = { owns_state = 1161 }
+                NOT = { owns_state = 1162 }
+                NOT = { owns_state = 1163 }
+                NOT = { owns_state = 1164 }
+                NOT = { owns_state = 1165 }
+                NOT = { owns_state = 617 }
+                NOT = { owns_state = 618 }
+                NOT = { owns_state = 619 }
+                NOT = { owns_state = 287 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_xinjiang = {
@@ -4234,6 +4827,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 30 }
                 is_ai = yes
             }
+                    owns_state = 1186
+            owns_state = 1187
+            owns_state = 604
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -4244,6 +4840,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_qinghai_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 30 }
+            OR = {
+                NOT = { owns_state = 1186 }
+                NOT = { owns_state = 1187 }
+                NOT = { owns_state = 604 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_qinghai = {
@@ -4371,6 +4983,10 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 31 }
                 is_ai = yes
             }
+                    owns_state = 1198
+            owns_state = 1193
+            owns_state = 616
+            owns_state = 283
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -4382,6 +4998,23 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_gansu_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 31 }
+            OR = {
+                NOT = { owns_state = 1198 }
+                NOT = { owns_state = 1193 }
+                NOT = { owns_state = 616 }
+                NOT = { owns_state = 283 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_gansu = {
@@ -4520,6 +5153,12 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 32 }
                 is_ai = yes
             }
+                    owns_state = 1166
+            owns_state = 1167
+            owns_state = 621
+            owns_state = 1202
+            owns_state = 612
+            owns_state = 715
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -4533,6 +5172,25 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_neimeng_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 32 }
+            OR = {
+                NOT = { owns_state = 1166 }
+                NOT = { owns_state = 1167 }
+                NOT = { owns_state = 621 }
+                NOT = { owns_state = 1202 }
+                NOT = { owns_state = 612 }
+                NOT = { owns_state = 715 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_neimeng = {
@@ -4693,6 +5351,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 33 }
                 is_ai = yes
             }
+                    owns_state = 1388
+            owns_state = 1389
+            owns_state = 1390
+            owns_state = 1391
+            owns_state = 330
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -4705,6 +5368,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_mon_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 33 }
+            OR = {
+                NOT = { owns_state = 1388 }
+                NOT = { owns_state = 1389 }
+                NOT = { owns_state = 1390 }
+                NOT = { owns_state = 1391 }
+                NOT = { owns_state = 330 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_mon = {
@@ -4854,6 +5535,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 34 }
                 is_ai = yes
             }
+                    owns_state = 329
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -4862,6 +5544,20 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_tuva_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 34 }
+            OR = {
+                NOT = { owns_state = 329 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_tuva = {
@@ -4967,6 +5663,11 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 35 }
                 is_ai = yes
             }
+                    owns_state = 1425
+            owns_state = 716
+            owns_state = 1417
+            owns_state = 1413
+            owns_state = 1394
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -4979,6 +5680,24 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_liaoning_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 35 }
+            OR = {
+                NOT = { owns_state = 1425 }
+                NOT = { owns_state = 716 }
+                NOT = { owns_state = 1417 }
+                NOT = { owns_state = 1413 }
+                NOT = { owns_state = 1394 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_liaoning = {
@@ -5128,6 +5847,9 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 36 }
                 is_ai = yes
             }
+                    owns_state = 1414
+            owns_state = 1415
+            owns_state = 328
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -5138,6 +5860,22 @@ CHI_civilwar_category = {
             }
         }
     }
+
+    ccw_jilin_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 36 }
+            OR = {
+                NOT = { owns_state = 1414 }
+                NOT = { owns_state = 1415 }
+                NOT = { owns_state = 328 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
 
     
     ccw_declare_war_on_jilin = {
@@ -5265,6 +6003,10 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 37 }
                 is_ai = yes
             }
+                    owns_state = 1424
+            owns_state = 714
+            owns_state = 717
+            owns_state = 1416
         }
         on_map_mode = decision_view_only
         highlight_states = {
@@ -5275,6 +6017,24 @@ CHI_civilwar_category = {
                 state = 1416
             }
         }
+    }
+
+    ccw_hlj_warning_divider = {
+        icon = GFX_CHI_chinese_civil_war_blank_animated
+        allowed = { original_tag = CHI }
+        available = { hidden_trigger = { always = no } }
+        visible = {
+            check_variable = { CHI_ccw_dec_visible = 37 }
+            OR = {
+                NOT = { owns_state = 1424 }
+                NOT = { owns_state = 714 }
+                NOT = { owns_state = 717 }
+                NOT = { owns_state = 1416 }
+            }
+        }
+        on_map_mode = decision_view_only
+    }
+
     
     ccw_declare_war_on_hlj = {
         icon = generic_prepare_for_war

@@ -1908,7 +1908,7 @@ scripted_gui = {
                 else = { set_variable = { CHI_ccw_dec_visible = 36 } }
             }
             
-            ccw_hlg_0_click = {
+            ccw_hlj_0_click = {
                 if = {
                     limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
                     clear_variable = CHI_ccw_dec_visible
@@ -2124,7 +2124,7 @@ scripted_gui = {
                 else = { set_variable = { CHI_ccw_dec_visible = 36 } }
             }
             
-            ccw_hlg_1_click = {
+            ccw_hlj_1_click = {
                 if = {
                     limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
                     clear_variable = CHI_ccw_dec_visible
@@ -2420,7 +2420,7 @@ scripted_gui = {
                 else = { set_variable = { CHI_ccw_dec_visible = 36 } }
             }
             
-            ccw_hlg_2_click = {
+            ccw_hlj_2_click = {
                 if = {
                     limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
                     clear_variable = CHI_ccw_dec_visible
@@ -2716,7 +2716,7 @@ scripted_gui = {
                 else = { set_variable = { CHI_ccw_dec_visible = 36 } }
             }
             
-            ccw_hlg_3_click = {
+            ccw_hlj_3_click = {
                 if = {
                     limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
                     clear_variable = CHI_ccw_dec_visible

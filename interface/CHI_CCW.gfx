@@ -1,5 +1,19 @@
 spriteTypes = {
 
+	frameAnimatedSpriteType = {
+		name = "GFX_CHI_chinese_civil_war_blank_animated"
+		texturefile = "gfx/interface/decisions/CHI/CHI_chinese_civil_war_blank_animated.png"
+		noOfFrames = 8
+		animation_rate_fps = 8
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	spriteType = {
+		name = "GFX_CHI_chinese_civil_war_blank"
+		texturefile = "gfx/interface/decisions/CHI/CHI_chinese_civil_war_blank.png"
+	}
+
     SpriteType = {
         name = "ccw_anhui_status_strip"
         texturefile = "gfx/interface/chinese_civil_war/ccw_anhui_status_strip.png"
