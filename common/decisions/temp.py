@@ -1,443 +1,883 @@
 import re
 
-# 貼上你最初始的那串包含 State ID 的原始碼
+# 請將 TFR_decisions_CHI_CCW.txt 中的 CHI_civilwar_category 完整內容貼在下方引號中
 text = """
-            ccw_taiwan_0_visible = {
-                NOT = {
-                    OR = {
-                        524 = { is_controlled_by = CHI }
-                        1148 = { is_controlled_by = CHI }
-                        1149 = { is_controlled_by = CHI }
-                        1150 = { is_controlled_by = CHI }
-                        648 = { is_controlled_by = CHI }
-                    }
-                }
+ccw_taiwan_divider = {
+        icon = GFX_ccw_taiwan_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 1 }
+                is_ai = yes
             }
-            
-            ccw_anhui_0_visible = {
-                NOT = {
-                    OR = {
-                        1223 = { is_controlled_by = CHI }
-                        606 = { is_controlled_by = CHI }
-                        1221 = { is_controlled_by = CHI }
-                    }
-                }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 524
+                state = 1148
+                state = 1149
+                state = 1150
+                state = 648
             }
+        }
+    }
 
-            ccw_beijing_s_0_visible = {
-                NOT = {
-                    608 = { is_controlled_by = CHI }
-                }
+    ccw_anhui_divider = {
+        icon = GFX_ccw_anhui_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 2 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1223
+                state = 606
+                state = 1221
+            }
+        }
+    }
 
-            ccw_beijing_0_visible = {
-                NOT = {
-                    608 = { is_controlled_by = CHI }
-                }
+    ccw_beijing_divider = {
+        icon = GFX_ccw_beijing_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 3 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 608
+            }
+        }
+    }
 
-            ccw_jiangsu_0_visible = {
-                NOT = {
-                    OR = {
-                        598 = { is_controlled_by = CHI }
-                        1228 = { is_controlled_by = CHI }
-                        1429 = { is_controlled_by = CHI }
-                        613 = { is_controlled_by = CHI }
-                        1222 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_jiangsu_divider = {
+        icon = GFX_ccw_jiangsu_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 4 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 598
+                state = 1228
+                state = 1429
+                state = 613
+                state = 1222
+            }
+        }
+    }
 
-            ccw_shandong_0_visible = {
-                NOT = {
-                    OR = {
-                        1426 = { is_controlled_by = CHI }
-                        1231 = { is_controlled_by = CHI }
-                        597 = { is_controlled_by = CHI }
-                        1230 = { is_controlled_by = CHI }
-                        1427 = { is_controlled_by = CHI }
-                        1229 = { is_controlled_by = CHI }
-                        1393 = { is_controlled_by = CHI }
-                        1420 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_shandong_divider = {
+        icon = GFX_ccw_shandong_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 5 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1426
+                state = 1231
+                state = 597
+                state = 1230
+                state = 1427
+                state = 1229
+                state = 1393
+                state = 1420
+            }
+        }
+    }
 
-            ccw_hebei_0_visible = {
-                NOT = {
-                    OR = {
-                        609 = { is_controlled_by = CHI }
-                        610 = { is_controlled_by = CHI }
-                        611 = { is_controlled_by = CHI }
-                        1154 = { is_controlled_by = CHI }
-                        1232 = { is_controlled_by = CHI }
-                        1421 = { is_controlled_by = CHI }
-                        614 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_hebei_divider = {
+        icon = GFX_ccw_hebei_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 6 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 609
+                state = 610
+                state = 611
+                state = 1154
+                state = 1232
+                state = 1421
+                state = 614
+            }
+        }
+    }
 
-            ccw_tianjin_s_0_visible = {
-                NOT = {
-                    1157 = { is_controlled_by = CHI }
-                }
+    ccw_tianjin_divider = {
+        icon = GFX_ccw_tianjin_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 7 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1157
+            }
+        }
+    }
 
-            ccw_tianjin_0_visible = {
-                NOT = {
-                    1157 = { is_controlled_by = CHI }
-                }
+    ccw_shanxi_divider = {
+        icon = GFX_ccw_shanxi_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 8 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1233
+                state = 615
+                state = 1194
+            }
+        }
+    }
 
-            ccw_shanxi_0_visible = {
-                NOT = {
-                    OR = {
-                        1233 = { is_controlled_by = CHI }
-                        615 = { is_controlled_by = CHI }
-                        1194 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_shan3xi_divider = {
+        icon = GFX_ccw_shan3xi_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 9 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1201
+                state = 622
+                state = 1200
+            }
+        }
+    }
 
-            ccw_shan3xi_0_visible = {
-                NOT = {
-                    OR = {
-                        1201 = { is_controlled_by = CHI }
-                        622 = { is_controlled_by = CHI }
-                        1200 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_henan_divider = {
+        icon = GFX_ccw_henan_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 10 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 607
+                state = 1226
+                state = 1225
+                state = 1224
+            }
+        }
+    }
 
-            ccw_henan_0_visible = {
-                NOT = {
-                    OR = {
-                        607 = { is_controlled_by = CHI }
-                        1226 = { is_controlled_by = CHI }
-                        1225 = { is_controlled_by = CHI }
-                        1224 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_ningxia_divider = {
+        icon = GFX_ccw_ningxia_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 11 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1199
+            }
+        }
+    }
 
-            ccw_ningxia_0_visible = {
-                NOT = {
-                    1199 = { is_controlled_by = CHI }
-                }
+    ccw_chongqing_divider = {
+        icon = GFX_ccw_chongqing_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 12 }
+                is_ai = yes
             }
-            
-            ccw_chongqing_0_visible = {
-                NOT = {
-                    1189 = { is_controlled_by = CHI }
-                }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1189
             }
+        }
+    }
 
-            ccw_shanghai_0_visible = {
-                NOT = {
-                    1215 = { is_controlled_by = CHI }
-                }
+    ccw_shanghai_divider = {
+        icon = GFX_ccw_shanghai_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 13 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1215
+            }
+        }
+    }
 
-            ccw_shanghai_s_0_visible = {
-                NOT = {
-                    1215 = { is_controlled_by = CHI }
-                }
+    ccw_zhejiang_divider = {
+        icon = GFX_ccw_zhejiang_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 14 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1220
+                state = 1159
+                state = 1219
+                state = 596
+            }
+        }
+    }
 
-            ccw_zhejiang_0_visible = {
-                NOT = {
-                    OR = {
-                        1220 = { is_controlled_by = CHI }
-                        1159 = { is_controlled_by = CHI }
-                        1219 = { is_controlled_by = CHI }
-                        596 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_fujian_divider = {
+        icon = GFX_ccw_fujian_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 15 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1217
+                state = 595
+                state = 1218
+                state = 1216
+                state = 1431
+            }
+        }
+    }
 
-            ccw_fujian_0_visible = {
-                NOT = {
-                    OR = {
-                        1217 = { is_controlled_by = CHI }
-                        595 = { is_controlled_by = CHI }
-                        1218 = { is_controlled_by = CHI }
-                        1216 = { is_controlled_by = CHI }
-                        1431 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_guangdong_divider = {
+        icon = GFX_ccw_guangdong_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 16 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1430
+                state = 1207
+                state = 1206
+                state = 592
+                state = 728
+                state = 1395
+            }
+        }
+    }
 
-            ccw_guangdong_0_visible = {
-                NOT = {
-                    OR = {
-                        1430 = { is_controlled_by = CHI }
-                        1207 = { is_controlled_by = CHI }
-                        1206 = { is_controlled_by = CHI }
-                        592 = { is_controlled_by = CHI }
-                        728 = { is_controlled_by = CHI }
-                        1395 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_hongkong_divider = {
+        icon = GFX_ccw_hongkong_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 17 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 326
+            }
+        }
+    }
 
-            ccw_hongkong_0_visible = {
-                NOT = {
-                    326 = { is_controlled_by = CHI }
-                }
+    ccw_macau_divider = {
+        icon = GFX_ccw_macau_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 18 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 729
+            }
+        }
+    }
 
-            ccw_hongkong_s_0_visible = {
-                NOT = {
-                    326 = { is_controlled_by = CHI }
-                }
+    ccw_guangxi_divider = {
+        icon = GFX_ccw_guangxi_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 19 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 599
+                state = 1191
+                state = 593
+                state = 594
+                state = 1203
+                state = 1204
+                state = 1205
+            }
+        }
+    }
 
-            ccw_macau_0_visible = {
-                NOT = {
-                    729 = { is_controlled_by = CHI }
-                }
+    ccw_yunnan_divider = {
+        icon = GFX_ccw_yunnan_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 20 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1196
+                state = 1192
+                state = 1195
+                state = 325
+            }
+        }
+    }
 
-            ccw_macau_s_0_visible = {
-                NOT = {
-                    729 = { is_controlled_by = CHI }
-                }
+    ccw_sichuan_divider = {
+        icon = GFX_ccw_sichuan_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 21 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 601
+                state = 1168
+                state = 1190
+                state = 605
+                state = 1188
+            }
+        }
+    }
 
-            ccw_guangxi_0_visible = {
-                NOT = {
-                    OR = {
-                        599 = { is_controlled_by = CHI }
-                        1191 = { is_controlled_by = CHI }
-                        593 = { is_controlled_by = CHI }
-                        594 = { is_controlled_by = CHI }
-                        1203 = { is_controlled_by = CHI }
-                        1204 = { is_controlled_by = CHI }
-                        1205 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_xizang_divider = {
+        icon = GFX_ccw_xizang_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 22 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1155
+                state = 322
+                state = 1153
+                state = 1156
+                state = 1152
+            }
+        }
+    }
 
-            ccw_yunnan_0_visible = {
-                NOT = {
-                    OR = {
-                        1196 = { is_controlled_by = CHI }
-                        1192 = { is_controlled_by = CHI }
-                        1195 = { is_controlled_by = CHI }
-                        325 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_zangsouth_divider = {
+        icon = GFX_ccw_zangsouth_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 23 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 434
+            }
+        }
+    }
 
-            ccw_sichuan_0_visible = {
-                NOT = {
-                    OR = {
-                        601 = { is_controlled_by = CHI }
-                        1168 = { is_controlled_by = CHI }
-                        1190 = { is_controlled_by = CHI }
-                        605 = { is_controlled_by = CHI }
-                        1188 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_hubei_divider = {
+        icon = GFX_ccw_hubei_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 24 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1212
+                state = 620
+                state = 1211
+            }
+        }
+    }
 
-            ccw_xizang_0_visible = {
-                NOT = {
-                    OR = {
-                        1155 = { is_controlled_by = CHI }
-                        322 = { is_controlled_by = CHI }
-                        1153 = { is_controlled_by = CHI }
-                        1156 = { is_controlled_by = CHI }
-                        1152 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_hunan_divider = {
+        icon = GFX_ccw_hunan_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 25 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 602
+                state = 1208
+                state = 1209
+            }
+        }
+    }
 
-            ccw_zangsouth_0_visible = {
-                NOT = {
-                    434 = { is_controlled_by = CHI }
-                }
+    ccw_guizhou_divider = {
+        icon = GFX_ccw_guizhou_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 26 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1210
+                state = 603
+                state = 1197
+            }
+        }
+    }
 
-            ccw_hubei_0_visible = {
-                NOT = {
-                    OR = {
-                        1212 = { is_controlled_by = CHI }
-                        620 = { is_controlled_by = CHI }
-                        1211 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_jiangxi_divider = {
+        icon = GFX_ccw_jiangxi_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 27 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1227
+                state = 1428
+                state = 1214
+                state = 1213
+                state = 600
+            }
+        }
+    }
 
-            ccw_hunan_0_visible = {
-                NOT = {
-                    OR = {
-                        602 = { is_controlled_by = CHI }
-                        1208 = { is_controlled_by = CHI }
-                        1209 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_hainan_divider = {
+        icon = GFX_ccw_hainan_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 28 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 591
+            }
+        }
+    }
 
-            ccw_guizhou_0_visible = {
-                NOT = {
-                    OR = {
-                        1210 = { is_controlled_by = CHI }
-                        603 = { is_controlled_by = CHI }
-                        1197 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_xinjiang_divider = {
+        icon = GFX_ccw_xinjiang_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 29 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1158
+                state = 1160
+                state = 1161
+                state = 1162
+                state = 1163
+                state = 1164
+                state = 1165
+                state = 617
+                state = 618
+                state = 619
+                state = 287
+            }
+        }
+    }
 
-            ccw_jiangxi_0_visible = {
-                NOT = {
-                    OR = {
-                        1227 = { is_controlled_by = CHI }
-                        1428 = { is_controlled_by = CHI }
-                        1214 = { is_controlled_by = CHI }
-                        1213 = { is_controlled_by = CHI }
-                        600 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_qinghai_divider = {
+        icon = GFX_ccw_qinghai_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 30 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1186
+                state = 1187
+                state = 604
+            }
+        }
+    }
 
-            ccw_hainan_0_visible = {
-                NOT = {
-                    591 = { is_controlled_by = CHI }
-                }
+    ccw_gansu_divider = {
+        icon = GFX_ccw_gansu_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 31 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1198
+                state = 1193
+                state = 616
+                state = 283
+            }
+        }
+    }
 
-            ccw_xinjiang_0_visible = {
-                NOT = {
-                    OR = {
-                        1158 = { is_controlled_by = CHI }
-                        1160 = { is_controlled_by = CHI }
-                        1161 = { is_controlled_by = CHI }
-                        1162 = { is_controlled_by = CHI }
-                        1163 = { is_controlled_by = CHI }
-                        1164 = { is_controlled_by = CHI }
-                        1165 = { is_controlled_by = CHI }
-                        617 = { is_controlled_by = CHI }
-                        618 = { is_controlled_by = CHI }
-                        619 = { is_controlled_by = CHI }
-                        287 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_neimeng_divider = {
+        icon = GFX_ccw_neimeng_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 32 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1166
+                state = 1167
+                state = 621
+                state = 1202
+                state = 612
+                state = 715
+            }
+        }
+    }
 
-            ccw_qinghai_0_visible = {
-                NOT = {
-                    OR = {
-                        1186 = { is_controlled_by = CHI }
-                        1187 = { is_controlled_by = CHI }
-                        604 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_mon_divider = {
+        icon = GFX_ccw_mon_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 33 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1388
+                state = 1389
+                state = 1390
+                state = 1391
+                state = 330
+            }
+        }
+    }
 
-            ccw_gansu_0_visible = {
-                NOT = {
-                    OR = {
-                        1198 = { is_controlled_by = CHI }
-                        1193 = { is_controlled_by = CHI }
-                        616 = { is_controlled_by = CHI }
-                        283 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_tuva_divider = {
+        icon = GFX_ccw_tuva_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 34 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 329
+            }
+        }
+    }
 
-            ccw_neimeng_0_visible = {
-                NOT = {
-                    OR = {
-                        1166 = { is_controlled_by = CHI }
-                        1167 = { is_controlled_by = CHI }
-                        621 = { is_controlled_by = CHI }
-                        1202 = { is_controlled_by = CHI }
-                        612 = { is_controlled_by = CHI }
-                        715 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_liaoning_divider = {
+        icon = GFX_ccw_liaoning_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 35 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1425
+                state = 716
+                state = 1417
+                state = 1413
+                state = 1394
+            }
+        }
+    }
 
-            ccw_mon_0_visible = {
-                NOT = {
-                    OR = {
-                        1388 = { is_controlled_by = CHI }
-                        1389 = { is_controlled_by = CHI }
-                        1390 = { is_controlled_by = CHI }
-                        1391 = { is_controlled_by = CHI }
-                        330 = { is_controlled_by = CHI }
-                    }
-                }
+    ccw_jilin_divider = {
+        icon = GFX_ccw_jilin_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 36 }
+                is_ai = yes
             }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1414
+                state = 1415
+                state = 328
+            }
+        }
+    }
 
-            ccw_tuva_0_visible = {
-                NOT = {
-                    329 = { is_controlled_by = CHI }
-                }
+    ccw_hlj_divider = {
+        icon = GFX_ccw_hlj_divider
+        allowed = {original_tag = CHI}
+        available = { hidden_trigger = {always = no}}
+        visible = {
+            OR = {
+                check_variable = { CHI_ccw_dec_visible = 37 }
+                is_ai = yes
             }
-
-            ccw_liaoning_0_visible = {
-                NOT = {
-                    OR = {
-                        1425 = { is_controlled_by = CHI }
-                        716 = { is_controlled_by = CHI }
-                        1417 = { is_controlled_by = CHI }
-                        1413 = { is_controlled_by = CHI }
-                        1394 = { is_controlled_by = CHI }
-                    }
-                }
+        }
+        on_map_mode = decision_view_only
+        highlight_states = {
+            highlight_state_targets = {
+                state = 1424
+                state = 714
+                state = 717
+                state = 1416
             }
-
-            ccw_jilin_0_visible = {
-                NOT = {
-                    OR = {
-                        1414 = { is_controlled_by = CHI }
-                        1415 = { is_controlled_by = CHI }
-                        328 = { is_controlled_by = CHI }
-                    }
-                }
-            }
-
-            ccw_hlj_0_visible = {
-                NOT = {
-                    OR = {
-                        1424 = { is_controlled_by = CHI }
-                        714 = { is_controlled_by = CHI }
-                        717 = { is_controlled_by = CHI }
-                        1416 = { is_controlled_by = CHI }
-                    }
-                }
-            }
+        }
+    }
 """
 
-# 使用正則表達式切分文本，提取出「地區名稱」與「後面的區塊」
-# 例如提取出 'taiwan' 和它包含的 state 代碼
-parts = re.split(r'ccw_([a-zA-Z0-9_]+)_0_visible\s*=\s*\{', text)
+# 以 divider 的宣告作為切割點，將文本拆分為多個區塊
+blocks = re.split(r'(ccw_[a-zA-Z0-9_]+_divider\s*=\s*\{)', text)
 
-# parts[1] 會是第一個地區名，parts[2] 是它的內容，依此類推
-for i in range(1, len(parts), 2):
-    prov_name = parts[i]
-    block_content = parts[i+1]
+with open("ccw_generated_decisions.txt", "w", encoding="utf-8") as f:
+    # 寫入開頭的 CHI_civilwar_category = {
+    f.write(blocks[0])
     
-    # 抓取該區塊內所有的數字 (State ID)
-    states = re.findall(r'(\d+) = \{\s*is_controlled_by', block_content)
-    
-    if states:
-        print(f"    ccw_{prov_name}_divider = {{")
-        print(f"        icon = GFX_ccw_{prov_name}_divider")
-        print(f"        allowed = {{original_tag = CHI}}")
-        print(f"        available = {{ hidden_trigger = {{always = no}}}}")
-        print(f"        visible = {{")
-        print(f"            OR = {{")
-        print(f"                check_variable = {{ CHI_ccw_dec_visible = 1 }}")
-        print(f"                is_ai = yes")
-        print(f"            }}")
-        print(f"        }}")
-        print(f"        highlight_states = {{")
-        print(f"            highlight_state_targets = {{")
-        for state in states:
-            print(f"                state = {state}")
-        print(f"            }}")
-        print(f"        }}")
-        print(f"    }}\n")
+    for i in range(1, len(blocks), 2):
+        divider_header = blocks[i]      # 例如 ccw_taiwan_divider = {
+        content = blocks[i+1]           # 該 divider 裡面的內容
+        
+        # 提取地區名稱 (例如 taiwan)
+        region = re.search(r'ccw_([a-zA-Z0-9_]+)_divider', divider_header).group(1)
+        
+        # 如果是最後一個區塊，去除屬於 category 結尾的 '}'
+        if i == len(blocks) - 2:
+            content = content.rsplit('}', 1)[0]
+            
+        # 1. 將原本的 divider 完整寫回檔案 (確保你的 UI 介面不會消失)
+        f.write(divider_header + content)
+        
+        # 從你的原始代碼中提取 State IDs 以及對應的 Variable ID
+        states = re.findall(r'state\s*=\s*(\d+)', content)
+        var_match = re.search(r'CHI_ccw_dec_visible\s*=\s*(\d+)', content)
+        var_id = var_match.group(1) if var_match else "1"
+        
+        if states:
+            # 2. 生成【宣戰決議】，並加上 check_variable
+            print(f"\n    ccw_declare_war_on_{region} = {{", file=f)
+            print(f"        icon = generic_prepare_for_war", file=f)
+            print(f"        allowed = {{ original_tag = CHI }}", file=f)
+            print(f"        visible = {{", file=f)
+            print(f"            check_variable = {{ CHI_ccw_dec_visible = {var_id} }}", file=f)
+            print(f"        }}", file=f)
+            print(f"        available = {{", file=f)
+            print(f"            OR = {{", file=f)
+            for state in states:
+                print(f"                NOT = {{ owns_state = {state} }}", file=f)
+            print(f"            }}", file=f)
+            print(f"        }}", file=f)
+            print(f"        cost = 5", file=f)
+            print(f"        days_remove = 5", file=f)
+            print(f"        fire_only_once = yes", file=f)
+            print(f"        remove_effect = {{", file=f)
+            print(f"            every_other_country = {{", file=f)
+            print(f"                limit = {{", file=f)
+            print(f"                    OR = {{", file=f)
+            for state in states:
+                print(f"                        owns_state = {state}", file=f)
+            print(f"                    }}", file=f)
+            print(f"                    NOT = {{ is_in_faction_with = ROOT }}", file=f)
+            print(f"                    NOT = {{ is_subject_of = ROOT }}", file=f)
+            print(f"                }}", file=f)
+            print(f"                ROOT = {{", file=f)
+            print(f"                    declare_war_on = {{ target = PREV type = annex_everything }}", file=f)
+            print(f"                }}", file=f)
+            print(f"            }}", file=f)
+            print(f"        }}", file=f)
+            print(f"    }}", file=f)
+
+            # 3. 生成【造核心決議】(分為三種國策變體)，並加上 check_variable
+            variants = [
+                {
+                    "suffix": "", 
+                    "cost": 50, 
+                    "days": 50, 
+                    "focus_cond": "NOT = { has_completed_focus = CHI_ccw_focus_1 }\n            NOT = { has_completed_focus = CHI_ccw_focus_2 }"
+                },
+                {
+                    "suffix": "_focus1", 
+                    "cost": 40, 
+                    "days": 100, 
+                    "focus_cond": "has_completed_focus = CHI_ccw_focus_1"
+                },
+                {
+                    "suffix": "_focus2", 
+                    "cost": 60, 
+                    "days": 5, 
+                    "focus_cond": "has_completed_focus = CHI_ccw_focus_2"
+                }
+            ]
+            
+            for var in variants:
+                print(f"\n    ccw_core_{region}{var['suffix']} = {{", file=f)
+                print(f"        icon = generic_core_state", file=f)
+                print(f"        allowed = {{ original_tag = CHI }}", file=f)
+                print(f"        visible = {{", file=f)
+                print(f"            check_variable = {{ CHI_ccw_dec_visible = {var_id} }}", file=f)
+                print(f"            {var['focus_cond']}", file=f)
+                print(f"        }}", file=f)
+                print(f"        cost = {var['cost']}", file=f)
+                print(f"        days_remove = {var['days']}", file=f)
+                print(f"        available = {{", file=f)
+                for state in states:
+                    print(f"            owns_state = {state}", file=f)
+                print(f"            OR = {{", file=f)
+                for state in states:
+                    print(f"                {state} = {{ NOT = {{ is_core_of = ROOT }} }}", file=f)
+                print(f"            }}", file=f)
+                print(f"        }}", file=f)
+                print(f"        remove_effect = {{", file=f)
+                for state in states:
+                    print(f"            {state} = {{ add_core_of = ROOT }}", file=f)
+                print(f"        }}", file=f)
+                print(f"    }}\n", file=f)
+                
+    # 補回 Category 結尾的大括號
+    f.write("}\n")
+
+print("生成完畢！請打開 ccw_generated_decisions.txt 檢查。")

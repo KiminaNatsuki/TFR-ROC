@@ -1,6 +1,5 @@
-CHI_civilwar_category = {
-    
-    ccw_taiwan_divider = {
+
+ccw_taiwan_divider = {
         icon = GFX_ccw_taiwan_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -66,7 +65,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 1 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -161,7 +160,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_anhui_divider = {
+ccw_anhui_divider = {
         icon = GFX_ccw_anhui_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -221,7 +220,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 2 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -298,7 +297,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_beijing_divider = {
+ccw_beijing_divider = {
         icon = GFX_ccw_beijing_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -352,7 +351,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 3 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -411,7 +410,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_jiangsu_divider = {
+ccw_jiangsu_divider = {
         icon = GFX_ccw_jiangsu_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -477,7 +476,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 4 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -572,7 +571,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_shandong_divider = {
+ccw_shandong_divider = {
         icon = GFX_ccw_shandong_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -647,7 +646,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 5 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -769,7 +768,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_hebei_divider = {
+ccw_hebei_divider = {
         icon = GFX_ccw_hebei_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -841,7 +840,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 6 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -954,7 +953,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_tianjin_divider = {
+ccw_tianjin_divider = {
         icon = GFX_ccw_tianjin_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1008,7 +1007,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 7 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1067,7 +1066,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_shanxi_divider = {
+ccw_shanxi_divider = {
         icon = GFX_ccw_shanxi_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1127,7 +1126,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 8 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1204,7 +1203,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_shan3xi_divider = {
+ccw_shan3xi_divider = {
         icon = GFX_ccw_shan3xi_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1264,7 +1263,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 9 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1341,7 +1340,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_henan_divider = {
+ccw_henan_divider = {
         icon = GFX_ccw_henan_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1404,7 +1403,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 10 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1490,7 +1489,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_ningxia_divider = {
+ccw_ningxia_divider = {
         icon = GFX_ccw_ningxia_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1544,7 +1543,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 11 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1603,7 +1602,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_chongqing_divider = {
+ccw_chongqing_divider = {
         icon = GFX_ccw_chongqing_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1657,7 +1656,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 12 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1716,7 +1715,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_shanghai_divider = {
+ccw_shanghai_divider = {
         icon = GFX_ccw_shanghai_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1770,7 +1769,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 13 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1829,7 +1828,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_zhejiang_divider = {
+ccw_zhejiang_divider = {
         icon = GFX_ccw_zhejiang_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -1892,7 +1891,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 14 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -1978,7 +1977,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_fujian_divider = {
+ccw_fujian_divider = {
         icon = GFX_ccw_fujian_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -2044,7 +2043,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 15 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -2139,7 +2138,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_guangdong_divider = {
+ccw_guangdong_divider = {
         icon = GFX_ccw_guangdong_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -2208,7 +2207,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 16 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -2312,7 +2311,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_hongkong_divider = {
+ccw_hongkong_divider = {
         icon = GFX_ccw_hongkong_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -2366,7 +2365,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 17 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -2425,7 +2424,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_macau_divider = {
+ccw_macau_divider = {
         icon = GFX_ccw_macau_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -2479,7 +2478,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 18 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -2538,7 +2537,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_guangxi_divider = {
+ccw_guangxi_divider = {
         icon = GFX_ccw_guangxi_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -2610,7 +2609,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 19 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -2723,7 +2722,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_yunnan_divider = {
+ccw_yunnan_divider = {
         icon = GFX_ccw_yunnan_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -2786,7 +2785,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 20 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -2872,7 +2871,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_sichuan_divider = {
+ccw_sichuan_divider = {
         icon = GFX_ccw_sichuan_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -2938,7 +2937,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 21 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3033,7 +3032,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_xizang_divider = {
+ccw_xizang_divider = {
         icon = GFX_ccw_xizang_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -3099,7 +3098,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 22 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3194,7 +3193,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_zangsouth_divider = {
+ccw_zangsouth_divider = {
         icon = GFX_ccw_zangsouth_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -3248,7 +3247,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 23 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3307,7 +3306,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_hubei_divider = {
+ccw_hubei_divider = {
         icon = GFX_ccw_hubei_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -3367,7 +3366,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 24 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3444,7 +3443,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_hunan_divider = {
+ccw_hunan_divider = {
         icon = GFX_ccw_hunan_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -3504,7 +3503,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 25 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3581,7 +3580,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_guizhou_divider = {
+ccw_guizhou_divider = {
         icon = GFX_ccw_guizhou_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -3641,7 +3640,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 26 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3718,7 +3717,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_jiangxi_divider = {
+ccw_jiangxi_divider = {
         icon = GFX_ccw_jiangxi_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -3784,7 +3783,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 27 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3879,7 +3878,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_hainan_divider = {
+ccw_hainan_divider = {
         icon = GFX_ccw_hainan_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -3933,7 +3932,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 28 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -3992,7 +3991,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_xinjiang_divider = {
+ccw_xinjiang_divider = {
         icon = GFX_ccw_xinjiang_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -4076,7 +4075,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 29 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -4225,7 +4224,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_qinghai_divider = {
+ccw_qinghai_divider = {
         icon = GFX_ccw_qinghai_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -4285,7 +4284,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 30 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -4362,7 +4361,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_gansu_divider = {
+ccw_gansu_divider = {
         icon = GFX_ccw_gansu_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -4425,7 +4424,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 31 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -4511,7 +4510,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_neimeng_divider = {
+ccw_neimeng_divider = {
         icon = GFX_ccw_neimeng_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -4580,7 +4579,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 32 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -4684,7 +4683,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_mon_divider = {
+ccw_mon_divider = {
         icon = GFX_ccw_mon_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -4750,7 +4749,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 33 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -4845,7 +4844,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_tuva_divider = {
+ccw_tuva_divider = {
         icon = GFX_ccw_tuva_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -4899,7 +4898,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 34 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -4958,7 +4957,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_liaoning_divider = {
+ccw_liaoning_divider = {
         icon = GFX_ccw_liaoning_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -5024,7 +5023,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 35 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -5119,7 +5118,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_jilin_divider = {
+ccw_jilin_divider = {
         icon = GFX_ccw_jilin_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -5179,7 +5178,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 36 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -5256,7 +5255,7 @@ CHI_civilwar_category = {
         }
     }
 
-    ccw_hlj_divider = {
+ccw_hlj_divider = {
         icon = GFX_ccw_hlj_divider
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
@@ -5317,7 +5316,7 @@ CHI_civilwar_category = {
         allowed = { original_tag = CHI }
         visible = {
             check_variable = { CHI_ccw_dec_visible = 37 }
-            has_completed_focus = CHI_regional_political_tutelage
+            has_completed_focus = CHI_CHI_regional_political_tutelage
             NOT = { has_completed_focus = CHI_trust_localities }
             NOT = { has_completed_focus = CHI_central_supervision_policy }
         }
@@ -5402,7 +5401,5 @@ CHI_civilwar_category = {
             1416 = { add_core_of = ROOT }
         }
     }
-
-}
 
 }
