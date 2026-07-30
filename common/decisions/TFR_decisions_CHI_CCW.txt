@@ -1,7 +1,7 @@
 CHI_civilwar_category = {
     
     ccw_taiwan_divider = {
-        icon = GFX_ccw_taiwan_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -28,7 +28,7 @@ CHI_civilwar_category = {
     }
 
     ccw_taiwan_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -185,7 +185,7 @@ CHI_civilwar_category = {
     }
 
     ccw_anhui_divider = {
-        icon = GFX_ccw_anhui_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -208,7 +208,7 @@ CHI_civilwar_category = {
     }
 
     ccw_anhui_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -341,7 +341,7 @@ CHI_civilwar_category = {
     }
 
     ccw_beijing_divider = {
-        icon = GFX_ccw_beijing_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -360,7 +360,7 @@ CHI_civilwar_category = {
     }
 
     ccw_beijing_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -469,7 +469,7 @@ CHI_civilwar_category = {
     }
 
     ccw_jiangsu_divider = {
-        icon = GFX_ccw_jiangsu_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -496,7 +496,7 @@ CHI_civilwar_category = {
     }
 
     ccw_jiangsu_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -653,7 +653,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shandong_divider = {
-        icon = GFX_ccw_shandong_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -686,7 +686,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shandong_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -879,7 +879,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hebei_divider = {
-        icon = GFX_ccw_hebei_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -910,7 +910,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hebei_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -1091,7 +1091,7 @@ CHI_civilwar_category = {
     }
 
     ccw_tianjin_divider = {
-        icon = GFX_ccw_tianjin_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -1110,7 +1110,7 @@ CHI_civilwar_category = {
     }
 
     ccw_tianjin_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -1219,7 +1219,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shanxi_divider = {
-        icon = GFX_ccw_shanxi_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -1242,7 +1242,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shanxi_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -1375,7 +1375,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shan3xi_divider = {
-        icon = GFX_ccw_shan3xi_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -1398,7 +1398,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shan3xi_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -1531,7 +1531,7 @@ CHI_civilwar_category = {
     }
 
     ccw_henan_divider = {
-        icon = GFX_ccw_henan_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -1556,7 +1556,7 @@ CHI_civilwar_category = {
     }
 
     ccw_henan_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -1701,7 +1701,7 @@ CHI_civilwar_category = {
     }
 
     ccw_ningxia_divider = {
-        icon = GFX_ccw_ningxia_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -1720,7 +1720,7 @@ CHI_civilwar_category = {
     }
 
     ccw_ningxia_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -1829,7 +1829,7 @@ CHI_civilwar_category = {
     }
 
     ccw_chongqing_divider = {
-        icon = GFX_ccw_chongqing_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -1848,7 +1848,7 @@ CHI_civilwar_category = {
     }
 
     ccw_chongqing_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -1957,7 +1957,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shanghai_divider = {
-        icon = GFX_ccw_shanghai_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -1976,7 +1976,7 @@ CHI_civilwar_category = {
     }
 
     ccw_shanghai_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -2085,7 +2085,7 @@ CHI_civilwar_category = {
     }
 
     ccw_zhejiang_divider = {
-        icon = GFX_ccw_zhejiang_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -2110,7 +2110,7 @@ CHI_civilwar_category = {
     }
 
     ccw_zhejiang_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -2255,7 +2255,7 @@ CHI_civilwar_category = {
     }
 
     ccw_fujian_divider = {
-        icon = GFX_ccw_fujian_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -2282,7 +2282,7 @@ CHI_civilwar_category = {
     }
 
     ccw_fujian_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -2439,7 +2439,7 @@ CHI_civilwar_category = {
     }
 
     ccw_guangdong_divider = {
-        icon = GFX_ccw_guangdong_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -2468,7 +2468,7 @@ CHI_civilwar_category = {
     }
 
     ccw_guangdong_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -2637,7 +2637,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hongkong_divider = {
-        icon = GFX_ccw_hongkong_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -2656,7 +2656,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hongkong_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -2765,7 +2765,7 @@ CHI_civilwar_category = {
     }
 
     ccw_macau_divider = {
-        icon = GFX_ccw_macau_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -2784,7 +2784,7 @@ CHI_civilwar_category = {
     }
 
     ccw_macau_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -2893,7 +2893,7 @@ CHI_civilwar_category = {
     }
 
     ccw_guangxi_divider = {
-        icon = GFX_ccw_guangxi_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -2924,7 +2924,7 @@ CHI_civilwar_category = {
     }
 
     ccw_guangxi_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -3105,7 +3105,7 @@ CHI_civilwar_category = {
     }
 
     ccw_yunnan_divider = {
-        icon = GFX_ccw_yunnan_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -3130,7 +3130,7 @@ CHI_civilwar_category = {
     }
 
     ccw_yunnan_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -3275,7 +3275,7 @@ CHI_civilwar_category = {
     }
 
     ccw_sichuan_divider = {
-        icon = GFX_ccw_sichuan_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -3302,7 +3302,7 @@ CHI_civilwar_category = {
     }
 
     ccw_sichuan_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -3459,7 +3459,7 @@ CHI_civilwar_category = {
     }
 
     ccw_xizang_divider = {
-        icon = GFX_ccw_xizang_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -3486,7 +3486,7 @@ CHI_civilwar_category = {
     }
 
     ccw_xizang_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -3643,7 +3643,7 @@ CHI_civilwar_category = {
     }
 
     ccw_zangsouth_divider = {
-        icon = GFX_ccw_zangsouth_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -3662,7 +3662,7 @@ CHI_civilwar_category = {
     }
 
     ccw_zangsouth_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -3771,7 +3771,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hubei_divider = {
-        icon = GFX_ccw_hubei_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -3794,7 +3794,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hubei_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -3927,7 +3927,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hunan_divider = {
-        icon = GFX_ccw_hunan_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -3950,7 +3950,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hunan_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -4083,7 +4083,7 @@ CHI_civilwar_category = {
     }
 
     ccw_guizhou_divider = {
-        icon = GFX_ccw_guizhou_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -4106,7 +4106,7 @@ CHI_civilwar_category = {
     }
 
     ccw_guizhou_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -4239,7 +4239,7 @@ CHI_civilwar_category = {
     }
 
     ccw_jiangxi_divider = {
-        icon = GFX_ccw_jiangxi_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -4266,7 +4266,7 @@ CHI_civilwar_category = {
     }
 
     ccw_jiangxi_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -4423,7 +4423,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hainan_divider = {
-        icon = GFX_ccw_hainan_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -4442,7 +4442,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hainan_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -4551,7 +4551,7 @@ CHI_civilwar_category = {
     }
 
     ccw_xinjiang_divider = {
-        icon = GFX_ccw_xinjiang_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -4590,7 +4590,7 @@ CHI_civilwar_category = {
     }
 
     ccw_xinjiang_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -4819,7 +4819,7 @@ CHI_civilwar_category = {
     }
 
     ccw_qinghai_divider = {
-        icon = GFX_ccw_qinghai_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -4842,7 +4842,7 @@ CHI_civilwar_category = {
     }
 
     ccw_qinghai_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -4975,7 +4975,7 @@ CHI_civilwar_category = {
     }
 
     ccw_gansu_divider = {
-        icon = GFX_ccw_gansu_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -5000,7 +5000,7 @@ CHI_civilwar_category = {
     }
 
     ccw_gansu_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -5145,7 +5145,7 @@ CHI_civilwar_category = {
     }
 
     ccw_neimeng_divider = {
-        icon = GFX_ccw_neimeng_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -5174,7 +5174,7 @@ CHI_civilwar_category = {
     }
 
     ccw_neimeng_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -5343,7 +5343,7 @@ CHI_civilwar_category = {
     }
 
     ccw_mon_divider = {
-        icon = GFX_ccw_mon_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -5370,7 +5370,7 @@ CHI_civilwar_category = {
     }
 
     ccw_mon_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -5527,7 +5527,7 @@ CHI_civilwar_category = {
     }
 
     ccw_tuva_divider = {
-        icon = GFX_ccw_tuva_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -5546,7 +5546,7 @@ CHI_civilwar_category = {
     }
 
     ccw_tuva_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -5655,7 +5655,7 @@ CHI_civilwar_category = {
     }
 
     ccw_liaoning_divider = {
-        icon = GFX_ccw_liaoning_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -5682,7 +5682,7 @@ CHI_civilwar_category = {
     }
 
     ccw_liaoning_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -5839,7 +5839,7 @@ CHI_civilwar_category = {
     }
 
     ccw_jilin_divider = {
-        icon = GFX_ccw_jilin_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -5862,7 +5862,7 @@ CHI_civilwar_category = {
     }
 
     ccw_jilin_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
@@ -5995,7 +5995,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hlj_divider = {
-        icon = GFX_ccw_hlj_divider
+        icon = GFX_CHI_fully_under_control_animated
         allowed = {original_tag = CHI}
         available = { hidden_trigger = {always = no}}
         visible = {
@@ -6020,7 +6020,7 @@ CHI_civilwar_category = {
     }
 
     ccw_hlj_warning_divider = {
-        icon = GFX_CHI_chinese_civil_war_blank_animated
+        icon = GFX_CHI_warning_enemy_present_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
