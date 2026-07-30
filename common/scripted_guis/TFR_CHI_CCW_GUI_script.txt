@@ -1620,6 +1620,814 @@ scripted_gui = {
         }
         effects = {
 
+            ccw_taiwan_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 1 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 1 } }
+            }
+
+            ccw_anhui_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 2 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 2 } }
+            }
+
+            ccw_beijing_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 3 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 3 } }
+            }
+
+            ccw_jiangsu_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 4 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 4 } }
+            }
+
+            ccw_shandong_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 5 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 5 } }
+            }
+
+            ccw_hebei_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 6 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 6 } }
+            }
+
+            ccw_tianjin_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 7 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 7 } }
+            }
+
+            ccw_shanxi_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 8 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 8 } }
+            }
+
+            ccw_shan3xi_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 9 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 9 } }
+            }
+
+            ccw_henan_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 10 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 10 } }
+            }
+
+            ccw_ningxia_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 11 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 11 } }
+            }
+
+            ccw_chongqing_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 12 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 12 } }
+            }
+
+            ccw_shanghai_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 13 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 13 } }
+            }
+
+            ccw_zhejiang_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 14 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 14 } }
+            }
+
+            ccw_fujian_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 15 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 15 } }
+            }
+
+            ccw_guangdong_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 16 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 16 } }
+            }
+   
+            ccw_hongkong_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 17 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 17 } }
+            }
+
+            ccw_macau_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 18 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 18 } }
+            }
+
+            ccw_guangxi_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 19 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 19 } }
+            }
+
+            ccw_yunnan_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 20 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 20 } }
+            }
+           
+            ccw_sichuan_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 21 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 21 } }
+            }
+
+            ccw_xizang_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 22 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 22 } }
+            }
+
+            ccw_zangsouth_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 23 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 23 } }
+            }
+
+            ccw_hubei_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 24 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 24 } }
+            }
+           
+            ccw_hunan_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 25 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 25 } }
+            }
+
+            ccw_guizhou_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 26 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 26 } }
+            }
+
+            ccw_jiangxi_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 27 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 27 } }
+            }
+
+            ccw_hainan_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 28 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 28 } }
+            }
+           
+            ccw_xinjiang_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 29 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 29 } }
+            }
+
+            ccw_qinghai_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 30 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 30 } }
+            }
+
+            ccw_gansu_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 31 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 31 } }
+            }
+
+            ccw_neimeng_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 32 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 32 } }
+            }
+           
+            ccw_mon_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 33 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 33 } }
+            }
+
+            ccw_tuva_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 34 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 34 } }
+            }
+
+            ccw_liaoning_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 35 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 35 } }
+            }
+
+            ccw_jilin_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 36 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 36 } }
+            }
+            
+            ccw_hlg_0_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 37 } }
+            }
+
+            ccw_taiwan_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 1 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 1 } }
+            }
+
+            ccw_anhui_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 2 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 2 } }
+            }
+
+            ccw_jiangsu_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 4 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 4 } }
+            }
+
+            ccw_shandong_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 5 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 5 } }
+            }
+
+            ccw_hebei_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 6 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 6 } }
+            }
+
+            ccw_shanxi_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 8 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 8 } }
+            }
+
+            ccw_shan3xi_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 9 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 9 } }
+            }
+
+            ccw_henan_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 10 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 10 } }
+            }
+
+            ccw_zhejiang_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 14 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 14 } }
+            }
+
+            ccw_fujian_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 15 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 15 } }
+            }
+
+            ccw_guangdong_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 16 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 16 } }
+            }
+
+            ccw_guangxi_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 19 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 19 } }
+            }
+
+            ccw_yunnan_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 20 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 20 } }
+            }
+           
+            ccw_sichuan_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 21 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 21 } }
+            }
+
+            ccw_xizang_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 22 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 22 } }
+            }
+
+            ccw_hubei_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 24 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 24 } }
+            }
+           
+            ccw_hunan_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 25 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 25 } }
+            }
+
+            ccw_guizhou_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 26 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 26 } }
+            }
+
+            ccw_jiangxi_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 27 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 27 } }
+            }
+           
+            ccw_xinjiang_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 29 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 29 } }
+            }
+
+            ccw_qinghai_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 30 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 30 } }
+            }
+
+            ccw_gansu_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 31 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 31 } }
+            }
+
+            ccw_neimeng_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 32 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 32 } }
+            }
+           
+            ccw_mon_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 33 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 33 } }
+            }
+
+            ccw_liaoning_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 35 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 35 } }
+            }
+
+            ccw_jilin_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 36 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 36 } }
+            }
+            
+            ccw_hlg_1_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 37 } }
+            }
+
+            ccw_taiwan_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 1 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 1 } }
+            }
+
+            ccw_anhui_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 2 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 2 } }
+            }
+
+            ccw_beijing_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 3 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 3 } }
+            }
+
+            ccw_jiangsu_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 4 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 4 } }
+            }
+
+            ccw_shandong_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 5 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 5 } }
+            }
+
+            ccw_hebei_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 6 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 6 } }
+            }
+
+            ccw_tianjin_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 7 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 7 } }
+            }
+
+            ccw_shanxi_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 8 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 8 } }
+            }
+
+            ccw_shan3xi_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 9 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 9 } }
+            }
+
+            ccw_henan_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 10 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 10 } }
+            }
+
+            ccw_ningxia_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 11 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 11 } }
+            }
+
+            ccw_chongqing_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 12 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 12 } }
+            }
+
+            ccw_shanghai_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 13 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 13 } }
+            }
+
+            ccw_zhejiang_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 14 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 14 } }
+            }
+
+            ccw_fujian_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 15 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 15 } }
+            }
+
+            ccw_guangdong_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 16 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 16 } }
+            }
+   
+            ccw_hongkong_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 17 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 17 } }
+            }
+
+            ccw_macau_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 18 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 18 } }
+            }
+
+            ccw_guangxi_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 19 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 19 } }
+            }
+
+            ccw_yunnan_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 20 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 20 } }
+            }
+           
+            ccw_sichuan_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 21 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 21 } }
+            }
+
+            ccw_xizang_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 22 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 22 } }
+            }
+
+            ccw_zangsouth_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 23 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 23 } }
+            }
+
+            ccw_hubei_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 24 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 24 } }
+            }
+           
+            ccw_hunan_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 25 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 25 } }
+            }
+
+            ccw_guizhou_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 26 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 26 } }
+            }
+
+            ccw_jiangxi_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 27 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 27 } }
+            }
+
+            ccw_hainan_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 28 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 28 } }
+            }
+           
+            ccw_xinjiang_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 29 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 29 } }
+            }
+
+            ccw_qinghai_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 30 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 30 } }
+            }
+
+            ccw_gansu_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 31 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 31 } }
+            }
+
+            ccw_neimeng_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 32 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 32 } }
+            }
+           
+            ccw_mon_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 33 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 33 } }
+            }
+
+            ccw_tuva_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 34 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 34 } }
+            }
+
+            ccw_liaoning_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 35 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 35 } }
+            }
+
+            ccw_jilin_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 36 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 36 } }
+            }
+            
+            ccw_hlg_2_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 37 } }
+            }
+
             ccw_taiwan_3_click = {
                 if = {
                     limit = { check_variable = { CHI_ccw_dec_visible = 1 } }
@@ -1628,6 +2436,293 @@ scripted_gui = {
                 else = { set_variable = { CHI_ccw_dec_visible = 1 } }
             }
 
+            ccw_anhui_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 2 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 2 } }
+            }
+
+            ccw_beijing_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 3 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 3 } }
+            }
+
+            ccw_jiangsu_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 4 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 4 } }
+            }
+
+            ccw_shandong_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 5 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 5 } }
+            }
+
+            ccw_hebei_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 6 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 6 } }
+            }
+
+            ccw_tianjin_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 7 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 7 } }
+            }
+
+            ccw_shanxi_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 8 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 8 } }
+            }
+
+            ccw_shan3xi_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 9 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 9 } }
+            }
+
+            ccw_henan_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 10 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 10 } }
+            }
+
+            ccw_ningxia_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 11 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 11 } }
+            }
+
+            ccw_chongqing_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 12 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 12 } }
+            }
+
+            ccw_shanghai_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 13 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 13 } }
+            }
+
+            ccw_zhejiang_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 14 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 14 } }
+            }
+
+            ccw_fujian_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 15 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 15 } }
+            }
+
+            ccw_guangdong_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 16 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 16 } }
+            }
+   
+            ccw_hongkong_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 17 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 17 } }
+            }
+
+            ccw_macau_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 18 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 18 } }
+            }
+
+            ccw_guangxi_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 19 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 19 } }
+            }
+
+            ccw_yunnan_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 20 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 20 } }
+            }
+           
+            ccw_sichuan_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 21 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 21 } }
+            }
+
+            ccw_xizang_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 22 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 22 } }
+            }
+
+            ccw_zangsouth_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 23 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 23 } }
+            }
+
+            ccw_hubei_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 24 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 24 } }
+            }
+           
+            ccw_hunan_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 25 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 25 } }
+            }
+
+            ccw_guizhou_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 26 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 26 } }
+            }
+
+            ccw_jiangxi_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 27 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 27 } }
+            }
+
+            ccw_hainan_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 28 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 28 } }
+            }
+           
+            ccw_xinjiang_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 29 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 29 } }
+            }
+
+            ccw_qinghai_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 30 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 30 } }
+            }
+
+            ccw_gansu_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 31 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 31 } }
+            }
+
+            ccw_neimeng_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 32 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 32 } }
+            }
+           
+            ccw_mon_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 33 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 33 } }
+            }
+
+            ccw_tuva_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 34 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 34 } }
+            }
+
+            ccw_liaoning_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 35 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 35 } }
+            }
+
+            ccw_jilin_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 36 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 36 } }
+            }
+            
+            ccw_hlg_3_click = {
+                if = {
+                    limit = { check_variable = { CHI_ccw_dec_visible = 37 } }
+                    clear_variable = CHI_ccw_dec_visible
+                }
+                else = { set_variable = { CHI_ccw_dec_visible = 37 } }
+            }
 
         }
     }
