@@ -313,4 +313,31 @@ spriteTypes = {
 		transparencecheck = yes
     }
 
+
+	frameAnimatedSpriteType = {
+		name = "GFX_CHI_fully_under_control_animated"
+		texturefile = "gfx/interface/decisions/CHI/CHI_fully_under_control_animated.png"
+		noOfFrames = 16
+		animation_rate_fps = 16
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	spriteType = {
+		name = "GFX_CHI_fully_under_control"
+		texturefile = "gfx/interface/decisions/CHI/CHI_fully_under_control.png"
+	}
+	frameAnimatedSpriteType = {
+		name = "GFX_CHI_warning_enemy_present_animated"
+		texturefile = "gfx/interface/decisions/CHI/CHI_warning_enemy_present_animated.png"
+		noOfFrames = 16
+		animation_rate_fps = 7
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	spriteType = {
+		name = "GFX_CHI_warning_enemy_present"
+		texturefile = "gfx/interface/decisions/CHI/CHI_warning_enemy_present.png"
+	}
 }
