@@ -28,7 +28,7 @@ CHI_civilwar_category = {
     }
 
     ccw_taiwan_warning_divider = {
-        icon = GFX_CHI_warning_enemy_present_animated
+        icon = GFX_CHI_bro_LOST_taiwan_sob_animated
         allowed = { original_tag = CHI }
         available = { hidden_trigger = { always = no } }
         visible = {
