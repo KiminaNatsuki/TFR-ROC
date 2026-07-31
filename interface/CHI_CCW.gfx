@@ -340,4 +340,17 @@ spriteTypes = {
 		name = "GFX_CHI_warning_enemy_present"
 		texturefile = "gfx/interface/decisions/CHI/CHI_warning_enemy_present.png"
 	}
+	frameAnimatedSpriteType = {
+		name = "GFX_CHI_bro_LOST_taiwan_sob_animated"
+		texturefile = "gfx/interface/decisions/CHI/CHI_bro_LOST_taiwan_sob_animated.png"
+		noOfFrames = 16
+		animation_rate_fps = 10
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	spriteType = {
+		name = "GFX_CHI_bro_LOST_taiwan_sob"
+		texturefile = "gfx/interface/decisions/CHI/CHI_bro_LOST_taiwan_sob.png"
+	}
 }
