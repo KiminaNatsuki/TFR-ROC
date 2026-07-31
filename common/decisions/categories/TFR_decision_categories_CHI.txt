@@ -318,3 +318,10 @@ CHI_shanhe4province_category = {
     }
   }
 }
+
+CHI_Identity_dispute_dec = {
+  icon = generic_politics
+  allowed = {
+    original_tag = CHI
+  }
+}
