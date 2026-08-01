@@ -298,6 +298,7 @@ CHI_GAW_situation_category = {
       has_completed_focus = CHI_thus_spoke_thucydides
     }
   }
+  scripted_gui = TFR_CHI_great_asian_war_gui
 }
 
 ####    ######    ##  ##    ####
@@ -332,5 +333,12 @@ CHI_shanhe4province_category = {
       is_debug = yes
       has_completed_focus = CHI_regional_political_tutelage
     }
+  }
+}
+
+CHI_Identity_dispute_dec = {
+  icon = generic_politics
+  allowed = {
+    original_tag = CHI
   }
 }

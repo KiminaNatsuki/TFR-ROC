@@ -323,10 +323,7 @@ focus_tree = {
             id = CHI.5
             days = 1
           }
-          country_event = {
-            id = ROC_CHI.33
-            days = 7
-          }
+
         }
         remove_dynamic_modifier = {
           modifier = CHI_taiwanese_independence_dynamic

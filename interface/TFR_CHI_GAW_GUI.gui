@@ -1,0 +1,596 @@
+guitypes = {
+	#大亞洲戰爭
+	containerwindowtype = {
+		name = "CHI_gaw_status"
+		size = { width = 100%% height = 500 }
+		
+		containerWindowType = {
+			name = "E"
+			position = { x = 250 y = 250 }
+
+			icontype = {
+				name = "gaw_background"
+				quadtexturesprite = "gaw_background"
+				position = { x = 0 y = 0 }
+				centerposition = yes				
+			}
+
+			##             ##
+            ##完全沒控制(紅)##
+            ##             ##
+
+			iconType = {
+				name = "gaw_aus_1"
+				position = { x = -29 y = 30 }
+				quadTextureSprite = "gaw_aus_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_dongbei_1"
+				position = { x = -19 y = -249 }
+				quadTextureSprite = "gaw_dongbei_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_eidn_1"
+				position = { x = -9 y = -5 }
+				quadTextureSprite = "gaw_eidn_status_strip"
+				frame = 1
+			}
+			
+			iconType = {
+				name = "gaw_huabei_1"
+				position = { x = -61 y = -179 }
+				quadTextureSprite = "gaw_huabei_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_huazh_1"
+				position = { x = -69 y = -138 }
+				quadTextureSprite = "gaw_huazh_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_huanan_1"
+				position = { x = -65 y = -104 }
+				quadTextureSprite = "gaw_huanan_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_idch_1"
+				position = { x = -118 y = -106 }
+				quadTextureSprite = "gaw_idch_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_idnmya_1"
+				position = { x = -119 y = -69 }
+				quadTextureSprite = "gaw_idnmya_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_ind_1"
+				position = { x = -219 y = -129 }
+				quadTextureSprite = "gaw_ind_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_mon_1"
+				position = { x = -137 y = -239 }
+				quadTextureSprite = "gaw_mon_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_nind_1"
+				position = { x = -136 y = -110 }
+				quadTextureSprite = "gaw_nind_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_nk_1"
+				position = { x = 19 y = -182 }
+				quadTextureSprite = "gaw_nk_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_pak_1"
+				position = { x = -249 y = -148 }
+				quadTextureSprite = "gaw_pak_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_phi_1"
+				position = { x = -13 y = -61 }
+				quadTextureSprite = "gaw_phi_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_saibei_1"
+				position = { x = -96 y = -203 }
+				quadTextureSprite = "gaw_saibei_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_sk_1"
+				position = { x = 25 y = -157 }
+				quadTextureSprite = "gaw_sk_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_taiwan_1"
+				position = { x = -88 y = -196 }
+				quadTextureSprite = "gaw_taiwan_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_tib_1"
+				position = { x = -177 y = -146 }
+				quadTextureSprite = "gaw_tib_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_xj_1"
+				position = { x = -196 y = -220 }
+				quadTextureSprite = "gaw_xj_status_strip"
+				frame = 1
+			}
+
+			iconType = {
+				name = "gaw_yunchuan_1"
+				position = { x = -96 y = -134 }
+				quadTextureSprite = "gaw_yunchuan_status_strip"
+				frame = 1
+			}
+
+			##           ##
+            ##部分控制(黃)##
+            ##           ##
+
+            iconType = {
+				name = "gaw_aus_2"
+				position = { x = -29 y = 30 }
+				quadTextureSprite = "gaw_aus_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_dongbei_2"
+				position = { x = -19 y = -249 }
+				quadTextureSprite = "gaw_dongbei_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_eidn_2"
+				position = { x = -9 y = -5 }
+				quadTextureSprite = "gaw_eidn_status_strip"
+				frame = 2
+			}
+			
+			iconType = {
+				name = "gaw_huabei_2"
+				position = { x = -61 y = -179 }
+				quadTextureSprite = "gaw_huabei_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_huazh_2"
+				position = { x = -69 y = -138 }
+				quadTextureSprite = "gaw_huazh_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_huanan_2"
+				position = { x = -65 y = -104 }
+				quadTextureSprite = "gaw_huanan_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_idch_2"
+				position = { x = -118 y = -106 }
+				quadTextureSprite = "gaw_idch_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_idnmya_2"
+				position = { x = -119 y = -69 }
+				quadTextureSprite = "gaw_idnmya_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_ind_2"
+				position = { x = -219 y = -129 }
+				quadTextureSprite = "gaw_ind_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_mon_2"
+				position = { x = -137 y = -239 }
+				quadTextureSprite = "gaw_mon_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_nind_2"
+				position = { x = -136 y = -110 }
+				quadTextureSprite = "gaw_nind_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_nk_2"
+				position = { x = 19 y = -182 }
+				quadTextureSprite = "gaw_nk_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_pak_2"
+				position = { x = -249 y = -148 }
+				quadTextureSprite = "gaw_pak_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_phi_2"
+				position = { x = -13 y = -61 }
+				quadTextureSprite = "gaw_phi_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_saibei_2"
+				position = { x = -96 y = -203 }
+				quadTextureSprite = "gaw_saibei_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_sk_2"
+				position = { x = 25 y = -157 }
+				quadTextureSprite = "gaw_sk_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_taiwan_2"
+				position = { x = -88 y = -196 }
+				quadTextureSprite = "gaw_taiwan_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_tib_2"
+				position = { x = -177 y = -146 }
+				quadTextureSprite = "gaw_tib_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_xj_2"
+				position = { x = -196 y = -220 }
+				quadTextureSprite = "gaw_xj_status_strip"
+				frame = 2
+			}
+
+			iconType = {
+				name = "gaw_yunchuan_2"
+				position = { x = -96 y = -134 }
+				quadTextureSprite = "gaw_yunchuan_status_strip"
+				frame = 2
+			}
+
+            ##             ##
+            ##控制要點(黃綠)##
+            ##             ##
+
+            iconType = {
+				name = "gaw_aus_3"
+				position = { x = -29 y = 30 }
+				quadTextureSprite = "gaw_aus_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_dongbei_3"
+				position = { x = -19 y = -249 }
+				quadTextureSprite = "gaw_dongbei_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_eidn_3"
+				position = { x = -9 y = -5 }
+				quadTextureSprite = "gaw_eidn_status_strip"
+				frame = 3
+			}
+			
+			iconType = {
+				name = "gaw_huabei_3"
+				position = { x = -61 y = -179 }
+				quadTextureSprite = "gaw_huabei_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_huazh_3"
+				position = { x = -69 y = -138 }
+				quadTextureSprite = "gaw_huazh_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_huanan_3"
+				position = { x = -65 y = -104 }
+				quadTextureSprite = "gaw_huanan_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_idch_3"
+				position = { x = -118 y = -106 }
+				quadTextureSprite = "gaw_idch_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_idnmya_3"
+				position = { x = -119 y = -69 }
+				quadTextureSprite = "gaw_idnmya_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_ind_3"
+				position = { x = -219 y = -129 }
+				quadTextureSprite = "gaw_ind_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_mon_3"
+				position = { x = -137 y = -239 }
+				quadTextureSprite = "gaw_mon_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_nind_3"
+				position = { x = -136 y = -110 }
+				quadTextureSprite = "gaw_nind_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_nk_3"
+				position = { x = 19 y = -182 }
+				quadTextureSprite = "gaw_nk_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_pak_3"
+				position = { x = -249 y = -148 }
+				quadTextureSprite = "gaw_pak_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_phi_3"
+				position = { x = -13 y = -61 }
+				quadTextureSprite = "gaw_phi_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_saibei_3"
+				position = { x = -96 y = -203 }
+				quadTextureSprite = "gaw_saibei_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_sk_3"
+				position = { x = 25 y = -157 }
+				quadTextureSprite = "gaw_sk_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_taiwan_3"
+				position = { x = -88 y = -196 }
+				quadTextureSprite = "gaw_taiwan_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_tib_3"
+				position = { x = -177 y = -146 }
+				quadTextureSprite = "gaw_tib_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_xj_3"
+				position = { x = -196 y = -220 }
+				quadTextureSprite = "gaw_xj_status_strip"
+				frame = 3
+			}
+
+			iconType = {
+				name = "gaw_yunchuan_3"
+				position = { x = -96 y = -134 }
+				quadTextureSprite = "gaw_yunchuan_status_strip"
+				frame = 3
+			}
+
+            ##           ##
+            ##完全控制(綠)##
+            ##           ##
+
+            iconType = {
+				name = "gaw_aus_4"
+				position = { x = -29 y = 30 }
+				quadTextureSprite = "gaw_aus_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_dongbei_4"
+				position = { x = -19 y = -249 }
+				quadTextureSprite = "gaw_dongbei_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_eidn_4"
+				position = { x = -9 y = -5 }
+				quadTextureSprite = "gaw_eidn_status_strip"
+				frame = 4
+			}
+			
+			iconType = {
+				name = "gaw_huabei_4"
+				position = { x = -61 y = -179 }
+				quadTextureSprite = "gaw_huabei_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_huazh_4"
+				position = { x = -69 y = -138 }
+				quadTextureSprite = "gaw_huazh_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_huanan_4"
+				position = { x = -65 y = -104 }
+				quadTextureSprite = "gaw_huanan_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_idch_4"
+				position = { x = -118 y = -106 }
+				quadTextureSprite = "gaw_idch_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_idnmya_4"
+				position = { x = -119 y = -69 }
+				quadTextureSprite = "gaw_idnmya_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_ind_4"
+				position = { x = -219 y = -129 }
+				quadTextureSprite = "gaw_ind_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_mon_4"
+				position = { x = -137 y = -239 }
+				quadTextureSprite = "gaw_mon_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_nind_4"
+				position = { x = -136 y = -110 }
+				quadTextureSprite = "gaw_nind_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_nk_4"
+				position = { x = 19 y = -182 }
+				quadTextureSprite = "gaw_nk_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_pak_4"
+				position = { x = -249 y = -148 }
+				quadTextureSprite = "gaw_pak_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_phi_4"
+				position = { x = -13 y = -61 }
+				quadTextureSprite = "gaw_phi_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_saibei_4"
+				position = { x = -96 y = -203 }
+				quadTextureSprite = "gaw_saibei_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_sk_4"
+				position = { x = 25 y = -157 }
+				quadTextureSprite = "gaw_sk_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_taiwan_4"
+				position = { x = -88 y = -196 }
+				quadTextureSprite = "gaw_taiwan_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_tib_4"
+				position = { x = -177 y = -146 }
+				quadTextureSprite = "gaw_tib_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_xj_4"
+				position = { x = -196 y = -220 }
+				quadTextureSprite = "gaw_xj_status_strip"
+				frame = 4
+			}
+
+			iconType = {
+				name = "gaw_yunchuan_4"
+				position = { x = -96 y = -134 }
+				quadTextureSprite = "gaw_yunchuan_status_strip"
+				frame = 4
+			}            
+
+		}
+	}
+}

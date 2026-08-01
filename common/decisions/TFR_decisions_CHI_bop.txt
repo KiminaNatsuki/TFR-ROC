@@ -1,0 +1,174 @@
+CHI_Identity_dispute_dec = {
+
+	CHI_secretly_fund_local_films_decision = {
+		icon = generic_political_rally
+		cost = 5
+		days_remove = 25
+		days_re_enable = 25
+		allowed = { original_tag = CHI }
+		available = {
+			power_balance_value = {
+				id = CHI_Identity_dispute
+				value > -0.60
+			}
+		}
+		modifier = {
+			power_balance_weekly = 0.003
+		}
+		complete_effect = {}
+		remove_effect = {}
+	}
+
+	CHI_celebrate_tw_sports_victory_decision = {
+		icon = generic_political_rally
+		cost = 10
+		days_re_enable = 100
+		allowed = { original_tag = CHI }
+		available = {
+			power_balance_value = {
+				id = CHI_Identity_dispute
+				value > -0.90
+			}
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = CHI_Identity_dispute
+				value = 0.05
+			}
+		}
+	}
+
+	CHI_celebrate_ct_sports_victory_decision = {
+		icon = generic_political_rally
+		cost = 10
+		days_re_enable = 100
+		allowed = { original_tag = CHI }
+		available = {
+			power_balance_value = {
+				id = CHI_Identity_dispute
+				value < 0.90
+			}
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = CHI_Identity_dispute
+				value = -0.05
+			}
+		}
+	}
+
+	CHI_invest_in_local_culture_decision = {
+		icon = generic_political_rally
+		cost = 15
+		days_re_enable = 140
+		allowed = { original_tag = CHI }
+		available = {
+			power_balance_value = {
+				id = CHI_Identity_dispute
+				value > 0.15
+			}
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = CHI_Identity_dispute
+				value = 0.1
+			}
+		}
+	}
+
+	CHI_curriculum_guideline_minor_adjustments_decision = {
+		icon = generic_political_rally
+		cost = 10
+		fire_only_once = yes
+		allowed = { original_tag = CHI }
+		available = {
+			NOT = {
+				has_government = social_liberal
+				has_government = social_democrat
+			}
+		}
+		complete_effect = {
+			add_power_balance_value = {
+				id = CHI_Identity_dispute
+				value = -0.1
+			}
+		}
+	}
+
+	CHI_support_youth_roc_movement_decision = {
+		icon = generic_political_rally
+		cost = 5
+		days_remove = 25
+		days_re_enable = 25
+		allowed = { original_tag = CHI }
+		available = {}
+		modifier = {
+			power_balance_weekly = -0.005
+		}
+		complete_effect = {}
+		remove_effect = {}
+	}
+
+	CHI_desinicization_rectification_movement_decision = {
+		icon = generic_political_rally
+		cost = 20
+		fire_only_once = yes
+		allowed = { original_tag = CHI }
+		available = {
+			NOT = {
+				has_government = authoritarian_democrat
+				has_government = conservative
+			}
+		}
+		modifier = {
+			power_balance_weekly = 0.007
+		}
+		complete_effect = {}
+	}
+
+	CHI_one_country_one_main_language_initiative_decision = {
+		icon = generic_political_rally
+		cost = 25
+		fire_only_once = yes
+		allowed = { original_tag = CHI }
+		available = {
+			power_balance_value = {
+				id = CHI_Identity_dispute
+				value < 0.90
+			}
+		}
+		modifier = {
+			power_balance_weekly = -0.01
+		}
+		complete_effect = {}
+	}
+
+	CHI_comprehensive_community_development_decision = {
+		icon = generic_political_rally
+		cost = 10
+		days_remove = 45
+		days_re_enable = 45
+		allowed = { original_tag = CHI }
+		available = {}
+		modifier = {
+			power_balance_weekly = 0.002
+		}
+		complete_effect = {}
+		remove_effect = {}
+	}
+
+	CHI_mourn_anti_authoritarian_figures_decision = {
+		icon = generic_political_rally
+		cost = 5
+		days_remove = 70
+		days_re_enable = 70
+		allowed = { original_tag = CHI }
+		available = {}
+		modifier = {
+			power_balance_weekly = 0.001
+		}
+		complete_effect = {}
+		remove_effect = {}
+	}
+
+}
