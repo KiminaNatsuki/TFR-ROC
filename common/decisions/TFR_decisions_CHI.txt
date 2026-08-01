@@ -320,6 +320,28 @@ CHI_debug = {
     complete_effect = {CHI={load_focus_tree = P4_CHI_Han}}
     set_country_flag = P4_CHI_Han_unlock
   }
+  load_CHI_stratocracy = {
+    icon = generic_decision
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    complete_effect = {
+      CHI = {
+        load_focus_tree = CHI_stratocracy_focus
+      }
+    }
+  }
+  load_P2_DPP_LCT = {
+    icon = generic_decision
+    allowed = { always = yes }
+    visible = { always = yes }
+    available = { always = yes }
+    complete_effect = {
+      CHI = {
+        load_focus_tree = P2_CHI_DPP
+      }
+    }
+  }
 }
 
 # 疫情
