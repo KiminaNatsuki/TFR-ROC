@@ -2600,7 +2600,7 @@ focus_tree = {
     cancel_if_invalid = yes
     #干預美國內戰
     available = {
-      has_completed_focus = Japan_Science_Technology_Industry_Cooperation
+      has_completed_focus = Out_the_storm
     }
     prerequisite = {
       focus = Recruiting_US_refugee_talent
@@ -2609,7 +2609,9 @@ focus_tree = {
       focus = Introduce_scientific_training_standards
     }
     completion_reward = {
-
+      add_war_support = 0.05
+      add_stability = -0.025
+      unlock_decision_category_tooltip = CHI_Intervene_the_American_Civil_War_category
     }
     relative_position_id = Recruiting_US_refugee_talent
   }

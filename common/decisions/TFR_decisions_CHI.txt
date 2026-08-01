@@ -2360,7 +2360,7 @@ CHI_Legislative_Yuan_decisions = {
   }
 }
 
-#軍購決議
+# 軍購決議
 CHI_Military_purchasing_cat = {
   #KOR
   Buy_light_weapons_from_KOR = {
@@ -4331,7 +4331,7 @@ CHI_Aid_Arab_Republics_category = {
       }
     }
     cost = 25
-    fire_only_once = yes
+    fire_only_once = no
     days_remove = 60
     modifier = {
       consumer_goods_factor = 0.05
@@ -4472,7 +4472,7 @@ CHI_Aid_Arab_Republics_category = {
   #   }
   # }
   # 擴大志願軍
-  CHI_Expand_the_volunteer_army = {
+  CHI_ARR_Expand_the_volunteer_army = {
     icon = GFX_CHI_
     allowed = {
       original_tag = CHI
@@ -4728,8 +4728,499 @@ CHI_Assist_reconstruction_the_Arab_Republic_category = {
 }
 
 # 干涉美國內戰決議
-CHI_Intervene_the_American_Civil_War = {
-  # 等等補
+CHI_Intervene_the_American_Civil_War_category = {
+  # 擴大志願軍
+  CHI_USA_Expand_the_volunteer_army = {
+    icon = GFX_CHI_USA_Expand_the_volunteer_army
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_completed_focus = Intervene_American_Civil_War
+    }
+    cancel_trigger = {
+      has_global_flag = USA_american_civil_war_over_global
+    }
+    cost = 75
+    fire_only_once = no
+    days_remove = 180
+    days_re_enable = 30
+    ai_will_do = {
+      base = 25
+    }
+    modifier = {
+      send_volunteer_size = 2
+      political_power_gain = -0.10
+    }
+  }
+  CHI_Take_stand_divider = {
+    icon = none
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      hidden_trigger = {
+        always = no
+      }
+    }
+    cancel_trigger = {
+      has_global_flag = USA_american_civil_war_over_global
+    }
+  }
+
+  ## 公開支持憲政府{
+  CHI_Publicly_support_USC = {
+    icon = GFX_CHI_Publicly_support_USC
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_completed_focus = Intervene_American_Civil_War
+    }
+    cancel_trigger = {
+      OR = {
+        has_country_flag = CHI_support_USB
+        USC = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    ai_will_do = {
+      base = 25
+    }
+    cost = 15
+    fire_only_once = yes
+    complete_effect = {
+      USB = {
+        add_opinion_modifier = {
+          target = CHI
+          modifier = CHI_opposed_us
+        }
+      }
+      USC = {
+        add_opinion_modifier = {
+          target = CHI
+          modifier = CHI_support_us
+        }
+      }
+      hidden_effect = {
+        set_country_flag = CHI_support_USC
+      }
+    }
+  }
+  # 向憲政府提供人道援助
+  CHI_Send_humanitarian_aid_to_the_USC = {
+    icon = GFX_CHI_Send_humanitarian_aid_to_the_USC
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_country_flag = CHI_support_USC
+    }
+    visible = {
+      OR = {
+        has_country_flag = CHI_support_USC
+        is_debug = yes
+      }
+    }
+    cancel_trigger = {
+      OR = {
+        USC = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    ai_will_do = {
+      base = 25
+    }
+    cost = 25
+    fire_only_once = no
+    days_remove = 60
+    modifier = {
+      consumer_goods_factor = 0.05
+    }
+    complete_effect = {
+      USC = {
+        add_stability = 0.05
+        add_opinion_modifier = {
+          target = CHI
+          modifier = CHI_ARR_humanitarian_aid
+        }
+      }
+    }
+  }
+  # 向憲政府提供輕武器
+  CHI_Trafficking_small_arms_to_USC = {
+    icon = GFX_CHI_Trafficking_small_arms_to_USC
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_country_flag = CHI_support_USC
+    }
+    visible = {
+      OR = {
+        has_country_flag = CHI_support_USC
+        is_debug = yes
+      }
+    }
+    cancel_trigger = {
+      OR = {
+        USC = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    days_remove = 90
+    days_re_enable = 90
+    custom_cost_trigger = {
+      has_equipment = {
+        infantry_equipment > 1999
+      }
+    }
+    ai_will_do = {
+      base = 25
+    }
+    custom_cost_text = decision_cost_ie_2000
+    complete_effect = {
+      add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = -2000
+      }
+    }
+    modifier = {
+      income_growth_factor = 0.10
+    }
+    remove_effect = {
+      USC = {
+        add_equipment_to_stockpile = {
+          type = infantry_equipment
+          amount = 2000
+          producer = CHI
+        }
+      }
+    }
+  }
+  # 向憲政府提供重武器
+  CHI_Trafficking_big_arms_to_USC = {
+    icon = GFX_CHI_Trafficking_big_arms
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_country_flag = CHI_support_USC
+    }
+    visible = {
+      OR = {
+        has_country_flag = CHI_support_USC
+        is_debug = yes
+      }
+    }
+    cancel_trigger = {
+      OR = {
+        USC = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    days_remove = 90
+    days_re_enable = 90
+    custom_cost_trigger = {
+      has_equipment = {
+        artillery_equipment_2 > 199
+      }
+    }
+    ai_will_do = {
+      base = 25
+    }
+    custom_cost_text = decision_cost_ae_200
+    complete_effect = {
+      add_equipment_to_stockpile = {
+        type = artillery_equipment_2
+        amount = -200
+      }
+    }
+    modifier = {
+      income_growth_factor = 0.10
+    }
+    remove_effect = {
+      USC = {
+        add_equipment_to_stockpile = {
+          type = artillery_equipment_2
+          amount = 200
+          producer = CHI
+        }
+      }
+    }
+  }
+  ## }
+  ## 公開支持聯邦政府{
+  CHI_Publicly_support_USB = {
+    icon = GFX_CHI_Publicly_support_USB
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_completed_focus = Intervene_American_Civil_War
+    }
+    cancel_trigger = {
+      OR = {
+        has_country_flag = CHI_support_USC
+        USB = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    cost = 15
+    fire_only_once = yes
+    complete_effect = {
+      USB = {
+        add_opinion_modifier = {
+          target = CHI
+          modifier = CHI_support_us
+        }
+      }
+      USC = {
+        add_opinion_modifier = {
+          target = CHI
+          modifier = CHI_opposed_us
+        }
+      }
+      hidden_effect = {
+        set_country_flag = CHI_support_USB
+      }
+    }
+  }
+  # 向聯邦政府提供人道援助
+  CHI_Send_humanitarian_aid_to_the_USB = {
+    icon = GFX_CHI_Send_humanitarian_aid_to_the_USB
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_country_flag = CHI_support_USB
+    }
+    visible = {
+      OR = {
+        has_country_flag = CHI_support_USB
+        is_debug = yes
+      }
+    }
+    cancel_trigger = {
+      OR = {
+        USC = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    ai_will_do = {
+      base = 25
+    }
+    cost = 25
+    fire_only_once = no
+    days_remove = 60
+    modifier = {
+      consumer_goods_factor = 0.05
+    }
+    complete_effect = {
+      USB = {
+        add_stability = 0.05
+        add_opinion_modifier = {
+          target = CHI
+          modifier = CHI_ARR_humanitarian_aid
+        }
+      }
+    }
+  }
+  # 向聯邦政府提供輕武器
+  CHI_Trafficking_small_arms_to_USB = {
+    icon = GFX_CHI_Trafficking_small_arms_to_USB
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_country_flag = CHI_support_USB
+    }
+    visible = {
+      OR = {
+        has_country_flag = CHI_support_USB
+        is_debug = yes
+      }
+    }
+    cancel_trigger = {
+      OR = {
+        USB = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    days_remove = 90
+    days_re_enable = 90
+    custom_cost_trigger = {
+      has_equipment = {
+        infantry_equipment > 1999
+      }
+    }
+    ai_will_do = {
+      base = 25
+    }
+    custom_cost_text = decision_cost_ie_2000
+    complete_effect = {
+      add_equipment_to_stockpile = {
+        type = infantry_equipment
+        amount = -2000
+      }
+    }
+    modifier = {
+      income_growth_factor = 0.10
+    }
+    remove_effect = {
+      USB = {
+        add_equipment_to_stockpile = {
+          type = infantry_equipment
+          amount = 2000
+          producer = CHI
+        }
+      }
+    }
+  }
+  # 向聯邦政府提供重武器
+  CHI_Trafficking_big_arms_to_USB = {
+    icon = GFX_CHI_Trafficking_big_arms_to_USB
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      has_country_flag = CHI_support_USB
+    }
+    visible = {
+      OR = {
+        has_country_flag = CHI_support_USB
+        is_debug = yes
+      }
+    }
+    cancel_trigger = {
+      OR = {
+        USB = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    days_remove = 90
+    days_re_enable = 90
+    custom_cost_trigger = {
+      has_equipment = {
+        artillery_equipment_2 > 199
+      }
+    }
+    ai_will_do = {
+      base = 25
+    }
+    custom_cost_text = decision_cost_ae_200
+    complete_effect = {
+      add_equipment_to_stockpile = {
+        type = artillery_equipment_2
+        amount = -200
+      }
+    }
+    modifier = {
+      income_growth_factor = 0.10
+    }
+    remove_effect = {
+      USB = {
+        add_equipment_to_stockpile = {
+          type = artillery_equipment_2
+          amount = 200
+          producer = CHI
+        }
+      }
+    }
+  }
+  ## }
+
+  # 在美國實驗作戰方式
+  CHI_Experimenting_with_combat_methods_in_the_USA = {
+    icon = GFX_CHI_Experimenting_with_combat_methods_in_the_USA
+    allowed = {
+      original_tag = CHI
+      has_global_flag = USA_american_civil_war_global
+    }
+    available = {
+      has_global_flag = USA_american_civil_war_global
+      OR = {
+        has_country_flag = CHI_support_USB
+        has_country_flag = CHI_support_USC
+      }
+    }
+    cancel_trigger = {
+      OR = {
+        USB = {
+          has_capitulated = yes
+        }
+        has_global_flag = USA_american_civil_war_over_global
+      }
+    }
+    days_remove = 180
+    custom_cost_trigger = {
+      command_power > 99
+      has_political_power > 49
+    }
+    ai_will_do = {
+      base = 25
+    }
+    custom_cost_text = decision_cost_50pp_100cp
+    complete_effect = {
+      add_command_power = -100
+      add_political_power = -50
+    }
+    modifier = {
+      experience_gain_army = 0.30
+      weekly_manpower = -5
+      training_time_army = +5
+    }
+    remove_effect = {
+      army_experience = 50
+      set_temp_variable = {
+        var = military_development_var_temp
+        value = 0.25
+      }
+      add_military_development = yes
+
+      custom_effect_tooltip = { IDEA = CHI_ROC_army_dynamic localization_key = modify_idea_tt }
+      add_to_variable = {
+        ROC_planning_speed = 0.1
+        tooltip = planning_speed_tooltip
+      }
+    }
+
+  }
 }
 
 ####    ######    ######    ####
