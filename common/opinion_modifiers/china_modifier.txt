@@ -65,4 +65,12 @@ opinion_modifiers = {
   CHI_Assist_reconstruction = {
     value = 15
   }
+
+  # 美國內戰
+  CHI_support_us = {
+    value = 50
+  }
+  CHI_opposed_us = {
+    value = -25
+  }
 }

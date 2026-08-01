@@ -29,4 +29,13 @@ spriteTypes = {
     texturefile = "gfx/texticons/banners/decisions/CHI_Assist_reconstruction_the_Arab_Republic_banner.png"
     legacy_lazy_load = no
   }
+  spriteType = {
+    name = "GFX_CHI_USA_cw_cat_banner"
+    texturefile = "gfx/texticons/banners/decisions/CHI_USA_cw_cat_banner.png"
+    legacy_lazy_load = no
+  }
+  spriteType = {
+    name = none
+    textureFile = "6767"
+  }
 }

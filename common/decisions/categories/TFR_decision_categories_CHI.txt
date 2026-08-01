@@ -28,7 +28,7 @@ CHI_taiwan_war_category = {
     original_tag = CHI
   }
 }
-#協助阿拉伯共和國重建
+# 協助阿拉伯共和國重建
 CHI_Assist_reconstruction_the_Arab_Republic_category = {
   priority = 5
   icon = GFX_CHI_Assist_reconstruction_the_Arab_Republic_category
@@ -42,7 +42,7 @@ CHI_Assist_reconstruction_the_Arab_Republic_category = {
     }
   }
 }
-#援助阿拉伯共和國
+# 援助阿拉伯共和國
 CHI_Aid_Arab_Republics_category = {
   priority = 7
   icon = GFX_CHI_Aid_Arab_Republics_category
@@ -50,8 +50,24 @@ CHI_Aid_Arab_Republics_category = {
     original_tag = CHI
   }
   visible = {
-    has_global_flag = saudi_civil_war_flag
-    is_debug = yes
+    OR = {
+      has_global_flag = saudi_civil_war_flag
+      is_debug = yes
+    }
+  }
+}
+# 干涉美國內戰
+CHI_Intervene_the_American_Civil_War_category = {
+  priority = 10000
+  icon = GFX_CHI_Intervene_the_American_Civil_War_category
+  allowed = {
+    original_tag = CHI
+  }
+  visible = {
+    OR = {
+      has_global_flag = USA_american_civil_war_global
+      is_debug = yes
+    }
   }
 }
 

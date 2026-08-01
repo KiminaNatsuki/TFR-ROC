@@ -1655,6 +1655,10 @@
  decision_cost_20pp_20cp_blocked: "£command_power_texticon §R50§! £pol_power §R100§!"
  decision_cost_20pp_20cp_tooltip: "執行此決議需要 £command_power §Y50§! £pol_power §Y100§!"
  
+ decision_cost_50pp_100cp: "£command_power_texticon §Y100§! £pol_power §Y50§!"
+ decision_cost_50pp_100cp_blocked: "£command_power_texticon §R100§! £pol_power §R50§!"
+ decision_cost_50pp_100cp_tooltip: "執行此決議需要 £command_power §Y100§! £pol_power §Y50§!"
+
  CHI_Assist_reconstruction_the_Arab_Republic_category: "協助阿拉伯共和國重建"
  CHI_Assist_reconstruction_the_Arab_Republic_category_desc: "\n\n\n\n\n£GFX_CHI_Assist_reconstruction_the_Arab_Republic_banner\n\n\n\n\n\n\n\n\n\n§Y目前重建進度§!: [?CHI_Assist_reconstruction_progress]"
 
@@ -1678,12 +1682,22 @@
  # 干涉美國內戰決議組
  CHI_Intervene_the_American_Civil_War_category: "干涉美國內戰"
  CHI_Intervene_the_American_Civil_War_category_desc: "\n\n\n\n\n£GFX_CHI_USA_cw_cat_banner\n\n\n\n\n\n\n\n"
- 
+ CHI_USA_Expand_the_volunteer_army: "擴大志願軍"
  CHI_Take_stand_divider: "§Y=====================表態=====================§!"
+ CHI_Publicly_support_USC: "公開支持憲政府"
+ CHI_Send_humanitarian_aid_to_the_USC: "向憲政府提供人道援助"
+ CHI_Trafficking_small_arms_to_USC: "向憲政府提供輕武器"
+ CHI_Trafficking_big_arms_to_USC: "向憲政府提供重武器"
+ CHI_Publicly_support_USB: "公開支持聯邦政府"
+ CHI_Send_humanitarian_aid_to_the_USB: "向聯邦政府提供人道援助"
+ CHI_Trafficking_small_arms_to_USB: "向聯邦政府提供輕武器"
+ CHI_Trafficking_big_arms_to_USB: "向聯邦政府提供重武器"
+ CHI_Experimenting_with_combat_methods_in_the_USA: "在美國實驗作戰方式"
 
  CHI_support_us: "支持我們"
  CHI_opposed_us: "反對我們"
- CHI_Support_one_the_parties: "§Y我們已支持其中一方§!"
+ CHI_support_USB: "我們已選擇支持§C聯邦政府§!"
+ CHI_support_USC: "我們已選擇支持§R憲政府§!"
  CHI_GAN: "贛國"
  CHI_xiang: "湘國"
  CHI_min: "閩國"
