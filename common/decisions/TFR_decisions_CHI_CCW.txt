@@ -9,7 +9,7 @@ CHI_civilwar_category = {
                 check_variable = { CHI_ccw_dec_visible = 1 }
                 is_ai = yes
             }
-                    owns_state = 524
+            owns_state = 524
             owns_state = 1148
             owns_state = 1149
             owns_state = 1150
@@ -63,7 +63,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -239,7 +239,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -387,7 +387,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -531,7 +531,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -727,7 +727,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -949,7 +949,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -1137,7 +1137,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -1273,7 +1273,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -1429,7 +1429,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -1589,7 +1589,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -1747,7 +1747,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -1875,7 +1875,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -2003,7 +2003,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -2143,7 +2143,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -2317,7 +2317,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -2505,7 +2505,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -2683,7 +2683,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -2811,7 +2811,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -2963,7 +2963,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -3163,7 +3163,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -3337,7 +3337,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -3521,7 +3521,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -3689,7 +3689,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -3825,7 +3825,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -3981,7 +3981,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -4137,7 +4137,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -4301,7 +4301,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -4469,7 +4469,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -4637,7 +4637,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -4873,7 +4873,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -5033,7 +5033,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -5211,7 +5211,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -5405,7 +5405,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -5573,7 +5573,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -5717,7 +5717,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -5893,7 +5893,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
@@ -6052,7 +6052,7 @@ CHI_civilwar_category = {
         }
         cost = 5
         days_remove = 5
-        fire_only_once = yes
+        fire_only_once = no
         remove_effect = {
             every_other_country = {
                 limit = {
