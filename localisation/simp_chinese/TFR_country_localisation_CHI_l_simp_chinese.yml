@@ -2251,6 +2251,7 @@
  CHI_Taipei_childcare: "推廣台北模式"
 
  CHI_childcare_policy: "推行生育政策"
+ CHI_operating_new_curriculum_guidelines: "推行新課綱標準"
 
  CHI_babysitter_selection: "加強對護工的審核"
  CHI_End_of_Chaos: "終結亂象"
@@ -2394,7 +2395,7 @@
 #}
 #{P2KMT軍事國策
  CHI_dont_forget_homeland: "毋忘在莒"
- military_reform_decision_tt: "解鎖軍事改革決議"
+ military_reform_decision_tt: "解鎖決議：£decision_icon §Y軍事改革§!"
 
  CHI_spirit_reaches_to_rainbow: "氣貫長虹"
  CHI_need_of_equipment: "器之急"
@@ -2421,7 +2422,7 @@
  CHI_renovate_Tsoying_naval_base: "翻新左營軍港"
  CHI_NCSIST_Project: "中科院研發項目"
  CHI_solidarity: "萬眾一心"
- unlock_NCSIST_project_tt: "解鎖中科院研發項目決議"
+ unlock_NCSIST_project_tt: "解鎖決議：£decision_icon §Y中科院研發項目§!"
  CHI_relaunch_project_zhenhai: "鎮海計畫"
  ##
  CHI_dont_forget_homeland_desc: "在這金門太武山巔，有四個字\n\n「毋忘在莒」\n\n這是一個兩千年前的故事，來自如今的山東齊地。\n\n戰國時，燕王拜樂毅為上將軍，舉兵伐齊，齊軍節節敗退，湣王遇害，終剩莒城與即墨二地負隅頑抗。\n\n苦撐五年。\n\n直至田單以火牛陣破燕，一連克復七十城，終成復國之業。\n\n先總統 蔣公也在內戰失敗，撤退來台後以此典故為鑒，鼓舞我國軍民同胞們反攻大陸之業，題下這四字，如今也已七十年餘了。\n\n如今大陸當局折戟台海，政局動盪，更是反攻大業重啟之最好時機\n\n切莫忘田單之精神。\n\n中華民族自強不息！"
@@ -2535,6 +2536,7 @@
  CHI_mongolian_negotiations_desc: "蒙古國——一個南邊接讓中國、北邊接壤俄羅斯的國家，這個國家誕生並不是出於民族自覺或分離主義的時空背景下，而是前蘇聯政權為了創造一個位於中俄之間的緩衝國強行割讓土地建立的，默認這段關係的中共已經消失，我國也並不承認這份條約，我們現在應立刻派遣外交官與蒙古討論其存立問題。"
  CHI_tuva_problem_desc: "圖瓦共和國——中文舊稱唐努烏梁海，數百年前俄羅斯帝國與大清帝國在這塊戰略要地進行統治博弈，在辛亥革命成功後唐努烏梁海隨著外蒙古脫離中國獨立後加入俄羅斯帝國，隨後又經歷蘇聯時代到現在的俄羅斯聯邦成為圖瓦共和國，我們收復外蒙古的行動已經造成俄羅斯的緊張，圖瓦問題可能會再度引發一場大戰。"
  CHI_begonia_leaf_desc: "解決了與蒙古的關係後，我國宣稱的最大疆域已完成九成以上，還有許多零碎的土地正在其他國家的控制之下，其中也有曾經站在同一陣線與中共作戰的夥伴，政府將派遣外交官前去討論，希望不會發生一些我們都不太樂見的結果......"
+ CHI_GAW_situation_category: "大亞洲戰爭"
 #}
 
 ## 戰略資源 {

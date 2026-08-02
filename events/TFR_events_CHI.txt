@@ -949,6 +949,8 @@ country_event = {
       remove_ideas = CHI_hold_the_line_idea
       remove_ideas = CHI_wolfpack_tactics_idea
       remove_ideas = CHI_phantom_legions_idea
+      remove_ideas = CHI_mobilize_balckbear
+      remove_ideas = CHI_mobilize_balckbear_1
       remove_ideas = CHI_united_as_one_idea
       remove_ideas = CHI_Taiwan_Bravery_2
       remove_ideas = CHI_Taiwan_Bravery
@@ -981,6 +983,30 @@ country_event = {
       }
       CHI={load_focus_tree = CHI_transition}
       focus_unlock = yes
+      if = {
+        limit = {
+          has_country_flag = KMT_win_flg
+        }
+        add_ideas = CHI_DPP_protest
+        set_temp_variable = {
+          coalition_partner_var_temp = token:social_liberal
+        }
+        remove_from_coalition = yes
+      }
+      else_if = {
+        limit = {
+          has_country_flag = DPP_win_flg
+        }
+        add_ideas = CHI_KMT_protests
+        set_temp_variable = {
+          coalition_partner_var_temp = token:conservative
+        }
+        remove_from_coalition = yes
+        set_temp_variable = {
+          coalition_partner_var_temp = token:authoritarian_democrat
+        }
+        remove_from_coalition = yes
+      }
     }
   }
 }
