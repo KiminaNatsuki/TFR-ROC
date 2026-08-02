@@ -41,6 +41,11 @@ characters = {
   }
   CHI_lin_de_wang_char = {
     #林德旺
+    portraits = {
+      civilian = {
+        large = "gfx/roc/CHI_lindewang_char.png"
+      }
+    }
     country_leader = {
       desc = CHI_lin_de_wang_char_desc
       ideology = marxism_leninism
@@ -1244,18 +1249,7 @@ characters = {
       }
     }
   }
-  CHI_lin_de_wang_char = {
-    portraits = {
-      civilian = {
-        large = "gfx/roc/CHI_lindewang_char.png"
-      }
-    }
-    country_leader = {
-      ideology = maoism
-      expire = "1.1.1.1"
-      id = -1
-    }
-  }
+
   CHI_sunyoulian_char = {
     portraits = {
       civilian = {
@@ -1304,6 +1298,18 @@ characters = {
       id = -1
     }
   }
+  CHI_Jiang_Wanan_char = {
+    portraits = {
+      civilian = {
+        large = "gfx/Leaders/CHI/CHI_Jiang_Wanan.png"
+      }
+    }
+    country_leader = {
+      ideology = constitutionalist
+      expire = "1.1.1.1"
+      id = -1
+    }
+  }
   NDF_Nur_Misuari = {
     portraits = {
       civilian = {
@@ -1311,7 +1317,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = national_derzhavism
+      ideology = left_nationalism
       expire = "1.1.1.1"
       id = -1
     }
@@ -1323,7 +1329,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = national_derzhavism
+      ideology = military_junta
       expire = "1.1.1.1"
       id = -1
     }
@@ -1335,7 +1341,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = national_derzhavism
+      ideology = military_junta
       expire = "1.1.1.1"
       id = -1
     }
@@ -1347,19 +1353,7 @@ characters = {
       }
     }
     country_leader = {
-      ideology = national_derzhavism
-      expire = "1.1.1.1"
-      id = -1
-    }
-  }
-  CHI_Jiang_Wanan_char = {
-    portraits = {
-      civilian = {
-        large = "gfx/Leaders/CHI/CHI_Jiang_Wanan.png"
-      }
-    }
-    country_leader = {
-      ideology = Chiang_Kaishek_thought
+      ideology = salafi
       expire = "1.1.1.1"
       id = -1
     }
