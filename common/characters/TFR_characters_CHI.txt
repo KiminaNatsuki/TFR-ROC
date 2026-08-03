@@ -80,7 +80,7 @@ characters = {
     }
   }
   CHI_chen_chen_hsiang_char = {
-    #陈振湘
+    #陳鎮湘
     portraits = {
       civilian = {
         large = "gfx/leaders/CHI/CHI_chen_chen_hsiang.png"
@@ -295,7 +295,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_huoh_shoou_yeh.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_huo_shou_yeh_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_huo_shou_yeh_char.png"
       }
     }
     field_marshal = {
@@ -330,7 +330,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_hsu_yen_pu.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_hsu_yen_pu_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_hsu_yen_pu_char.png"
       }
     }
     field_marshal = {
@@ -366,7 +366,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_chen_zhen_xiang.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_chen_zhen_xiang_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_chen_zhen_xiang_char.png"
       }
     }
     field_marshal = {
@@ -400,7 +400,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/yen_teh_fa.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_yen_teh_fa_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_yen_teh_fa_char.png"
       }
     }
     field_marshal = {
@@ -436,7 +436,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/hu_chen_pu.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_hu_chen_pu_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_hu_chen_pu_char.png"
       }
     }
     field_marshal = {
@@ -471,7 +471,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_hsieh_chien_tung.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_hsieh_chien_tung_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_hsieh_chien_tung_char.png"
       }
     }
     field_marshal = {
@@ -509,7 +509,7 @@ characters = {
       }
       army = {
         large = "gfx/Leaders/CHI/generals/Chiu_Kuo_cheng.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_Qiu_Guozheng.png"
+        small = "gfx/Leaders/CHI/minister/CHI_Qiu_Guozheng.png"
       }
     }
     country_leader = {
@@ -545,7 +545,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/lee_shying_jow.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_lee_shying_jow_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_lee_shying_jow_char.png"
       }
     }
     field_marshal = {
@@ -577,7 +577,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/zhao_shi_zhang.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_zhao_shi_zhang_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_zhao_shi_zhang_char.png"
       }
     }
     field_marshal = {
@@ -608,7 +608,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_chen_ti_duan.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_chen_ti_duan_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_chen_ti_duan_char.png"
       }
     }
     field_marshal = {
@@ -639,7 +639,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_wang_shin_lung.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_wang_shin_lung_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_wang_shin_lung_char.png"
       }
     }
     corps_commander = {
@@ -674,7 +674,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_chen_pao_yu.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_chen_pao_yu_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_chen_pao_yu_char.png"
       }
     }
     corps_commander = {
@@ -705,7 +705,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_chang_guan_chung.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_chang_guan_chung_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_chang_guan_chung_char.png"
       }
     }
     corps_commander = {
@@ -736,7 +736,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_chu_kai_sheng.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_chu_kai_sheng_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_chu_kai_sheng_char.png"
       }
     }
     corps_commander = {
@@ -770,7 +770,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_yu_bei_chan.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_yu_bei_chan_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_yu_bei_chan_char.png"
       }
     }
     corps_commander = {
@@ -804,7 +804,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_hsueh_shih_min.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_hsueh_shih_min_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_hsueh_shih_min_char.png"
       }
     }
     corps_commander = {
@@ -835,7 +835,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_yang_tien_hsiao.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_yang_tien_hsiao_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_yang_tien_hsiao_char.png"
       }
     }
     corps_commander = {
@@ -866,7 +866,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_yu_lien_fa.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_yu_lien_fa_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_yu_lien_fa_char.png"
       }
     }
     corps_commander = {
@@ -897,7 +897,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_Kao_Hua_chu.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_kao_hua_chu_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_kao_hua_chu_char.png"
       }
     }
     corps_commander = {
@@ -929,7 +929,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_wu_ta_peng_char.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_wu_ta_peng_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_wu_ta_peng_char.png"
       }
     }
     corps_commander = {
@@ -960,7 +960,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_cheng_te_mei_char.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_cheng_te_mei_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_cheng_te_mei_char.png"
       }
     }
     corps_commander = {
@@ -991,7 +991,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/Chai_Hui_Chen.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_chai_hui_chen_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_chai_hui_chen_char.png"
       }
     }
     corps_commander = {
@@ -1022,7 +1022,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_chung_shu_ming_char.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_chung_shu_ming_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_chung_shu_ming_char.png"
       }
     }
     corps_commander = {
@@ -1053,7 +1053,7 @@ characters = {
     portraits = {
       army = {
         large = "gfx/Leaders/CHI/generals/CHI_lu_kun_hsiu_char.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_lu_kun_hsiu_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_lu_kun_hsiu_char.png"
       }
     }
     corps_commander = {
@@ -1084,7 +1084,7 @@ characters = {
     portraits = {
       navy = {
         large = "gfx/Leaders/CHI/admirals/Kao_Kuang_Chi.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_kao_kuang_chi_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_kao_kuang_chi_char.png"
       }
     }
     navy_leader = {
@@ -1119,7 +1119,7 @@ characters = {
     portraits = {
       navy = {
         large = "gfx/Leaders/CHI/admirals/CHI_MAN_hsi_min.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_lee_hsi_min_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_lee_hsi_min_char.png"
       }
     }
     navy_leader = {
@@ -1155,7 +1155,7 @@ characters = {
     portraits = {
       navy = {
         large = "gfx/Leaders/CHI/admirals/Lin_Chen_Yi.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_lin_chen_yi_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_lin_chen_yi_char.png"
       }
     }
     navy_leader = {
@@ -1191,7 +1191,7 @@ characters = {
     portraits = {
       navy = {
         large = "gfx/Leaders/CHI/admirals/tang_hua.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_tang_hua_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_tang_hua_char.png"
       }
     }
     navy_leader = {
@@ -1222,7 +1222,7 @@ characters = {
     portraits = {
       navy = {
         large = "gfx/Leaders/CHI/admirals/liu_chih_pin.png"
-        small = "gfx/interface/ideas/CHI/advisors/CHI_liu_chih_pin_char.png"
+        small = "gfx/Leaders/CHI/minister/CHI_liu_chih_pin_char.png"
       }
     }
     navy_leader = {

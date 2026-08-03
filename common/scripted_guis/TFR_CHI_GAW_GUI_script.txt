@@ -77,7 +77,7 @@ scripted_gui = {
                         1421 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1232 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1426 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
-                        587 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
+                        597 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1427 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1393 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1229 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
@@ -493,7 +493,7 @@ scripted_gui = {
                         1421 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1232 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1426 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
-                        587 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
+                        597 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1427 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1393 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1229 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
@@ -523,7 +523,7 @@ scripted_gui = {
                         1421 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1232 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1426 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
-                        587 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
+                        597 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1427 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1393 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1229 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
@@ -1139,7 +1139,7 @@ scripted_gui = {
                         1421 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1232 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1426 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
-                        587 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
+                        597 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1427 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1393 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1229 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
@@ -1158,7 +1158,7 @@ scripted_gui = {
                         1200 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                     }
                 }
-                }
+            }
 
             gaw_huazh_3_visible = {
                 1221 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
@@ -1542,7 +1542,7 @@ scripted_gui = {
                         1421 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1232 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1426 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
-                        587 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
+                        597 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1427 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1393 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
                         1229 = {controller = {OR = {tag = ROOT is_in_faction_with = ROOT}}}
